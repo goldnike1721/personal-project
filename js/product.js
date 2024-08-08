@@ -128,7 +128,7 @@
                                 </a>
                             </div>
                             <div class="shop-product__name">
-                                <a href="product.html?id=${product.id}" class="info-link" data-id="${product.id}">${product.linkText}</a>
+                                <a href="/${product.id}" class="info-link" data-id="${product.id}">${product.linkText}</a>
                             </div>
                             <div class="shop-product__price">
                                 <p class="shop-product__price-list">${product.price}</p>
