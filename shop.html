@@ -18,13 +18,17 @@
         <nav data-hx-trigger="load" data-hx-swap="outerHTML" data-hx-get="global.header-nav.partial.html"></nav>
     </header>
     <main>
-        <section data-hx-trigger="load" data-hx-swap="outerHTML" data-hx-get="shop.store-homepage.partial.html">
+        <section data-hx-trigger="load" data-hx-swap="outerHTML" data-hx-get="shop-top.partial.html">
+        </section>
+        <section class="general-product-list"></section>
+        <section data-hx-trigger="load" data-hx-swap="outerHTML" data-hx-get="shop-bottom.partial.html">
         </section>
     </main>
     <footer>
         <div data-hx-trigger="load" data-hx-swap="outerHTML" data-hx-get="global.footer.partial.html"></div>
     </footer>
     <script src="js/index.js"></script>
+    <script src="js/general-products/general-products.js"></script>
 </body>
 
 </html>
