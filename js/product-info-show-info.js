@@ -1,4 +1,4 @@
-// product-info-show-info.js
+// // код працює але відображає весь товар
 (function () {
 
     function showInfo() {
