@@ -1,0 +1,22 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    scroll-behavior: smooth;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+.container {
+    max-width: 100%;
+    width: 100%;
+    margin: auto;
+}
