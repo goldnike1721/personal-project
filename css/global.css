@@ -1,3 +1,12 @@
+/* Lato */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+/* Niconne */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Niconne&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+/* Lexend */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lexend:wght@100..900&family=Niconne&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+
+
 *,
 *::after,
 *::before {
@@ -8,6 +17,33 @@
 
 :root {
     scroll-behavior: smooth;
+
+    --standart-background-color: linear-gradient(to right, #fef1e5, #ffefe4, #feece1, #fdeadd, #f6e2d7);
+    --hero-background-color: #feece1;
+    --bottom-background-color: #fef4e9;
+    --top-menu-background-color: #e8d9d0;
+    --text-link-dark-pink-color: #3d3431;
+    --text-link-light-pink-color: #936f62;
+    --burger-menu-color: #feece1;
+    --linear-underlining-menu: #3d3431;
+    --social-link-hover-color: #d8a08d;
+    --hamburger-lines-color: #604b43;
+    --text-light-pink: ;
+    --text-dark-pink: ;
+    --text-italic-color: #ebbaa9;
+    --text-dark-general-color: #333333;
+    --text-graphite-grey: #99887d;
+    --text-tar-black: #a59489;
+    --text-tar-light-black: #b4a79e;
+    --button-background-color: #333333;
+    --button-pink-color: #ebbaa9;
+    --button-border-color: #333333;
+    --button-light-text-color: #ffffff;
+    --about-us-leaf-image-color: #ebbaa9;
+    --text-italic-blue-color: #879991;
+    --text-dark-blue-color: #3d7d72;
+    --text-grey-blue-color: #71897d;
+    --text-light-blue-color: #849b91;
 }
 
 img {

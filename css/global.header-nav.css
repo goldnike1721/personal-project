@@ -1,8 +1,8 @@
 .header__navbar {
-    background-color: #feede0;
     overflow: hidden;
     width: 100%;
     position: relative;
+    z-index: 12;
 }
 
 .checkbox,
@@ -12,19 +12,24 @@
 }
 
 @media (min-width: 826px) {
+    .header__navbar {
+        background: var(--standart-background-color);
+    }
+
     .header__top-menu {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        background-color: #e8d9d0;
+        background-color: var(--top-menu-background-color);
         max-width: 1200px;
         padding: 15px;
         margin: 0 auto;
         font-family: 'Lato', sans-serif;
-        color: #936f62;
+        color: var(--text-link-light-pink-color);
     }
 
     .header__top-title {
+
         flex: 0 0 auto;
         padding: 10px 0;
     }
@@ -41,7 +46,7 @@
     }
 
     .header__title-link {
-        color: #936f62;
+        color: var(--text-link-light-pink-color);
         text-decoration: none;
     }
 
@@ -55,7 +60,7 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
-        background-color: #feede0;
+        background-color: var(--standart-background-color);
         max-width: 1200px;
         padding: 30px 15px;
         margin: 0 auto;
@@ -78,7 +83,7 @@
         display: inline-block;
         position: relative;
         text-decoration: none;
-        color: #936f62;
+        color: var(--text-link-light-pink-color);
         font-weight: 570;
     }
 
@@ -89,7 +94,7 @@
         bottom: -5px;
         width: 100%;
         height: 2px;
-        background-color: #3d3431;
+        background-color: var(--linear-underlining-menu);
         transform: scaleX(0);
         transform-origin: left center;
         transition: transform 0.5s ease;
@@ -100,7 +105,7 @@
     }
 
     .menu-list__item a:hover {
-        color: #3d3431;
+        color: var(--text-link-dark-pink-color);
         text-decoration: none;
         display: inline-block;
         width: max-content;
@@ -124,155 +129,36 @@
     }
 
     .header-social__link {
-        fill: #936f62;
+        fill: var(--text-link-light-pink-color);
     }
 
     .header-social__link:hover {
-        fill: #d8a08d;
+        fill: var(--social-link-hover-color);
     }
 }
-
-
-/* Готові стилі на бургер меню!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-@media (max-width: 825px) {
-    .header__navbar {
-        padding-top: 100px;
-    }
-
-    .header__logo {
-        z-index: 5;
-        display: block;
-        position: fixed;
-        margin: -60px 0;
-    }
-
-    .header__menu-icon {
-        z-index: 5;
-        display: block;
-        position: fixed;
-        top: 45px;
-        right: 32px;
-        width: 24px;
-        height: 16px;
-        cursor: pointer;
-    }
-
-    .header__menu-icon span,
-    .header__menu-icon::before,
-    .header__menu-icon::after {
-        left: 0;
-        position: flex;
-        height: 10%;
-        width: 100%;
-        transition: all 0.3s ease 0s;
-        background-color: black;
-    }
-
-    .header__menu-icon::before,
-    .header__menu-icon::after {
-        content: "";
-    }
-
-    .header__menu-icon::before {
-        top: 0;
-    }
-
-    .header__menu-icon::after {
-        bottom: 0;
-    }
-
-    .header__menu-icon span {
-        top: 50%;
-        transform: translateY(-50%);
-    }
-
-    .header__navbar-menu {
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%; */
-
-/* transform: translate(-100%, 0); */
-/* background-color: #fbf0e5;
-        padding: 100px 30px 30px 30px;
-        transition: all 0.3s ease 0s;
-        overflow: auto;
-    } */
-
-/* .header__bottom-items._active {
-        transform: translate(0, 0);
-    } */
-
-/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-        .header__top-menu {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            flex-direction: column;
-            position: fixed;
-            top: 37%;
-            left: 50%;
-            transform: translateX(-50%);
-            z-index: 5;
-        }
-
-        .title__text-top,
-        .title__link-top {
-            color: #936f62;
-            text-decoration: none;
-            font-size: 12px;
-            font-family: 'Lato', sans-serif;
-            font-weight: 570;
-            white-space: nowrap;
-        }
-
-        .header__title-text {
-            padding: 15px;
-        }
-
-        .title__text-top {
-            padding: 30px 0 15px 0;
-        }
-
-        .header__social-container {
-            position: fixed;
-            margin-left: auto;
-            top: 50%;
-            left: 50%;
-            transform: translateX(-50%);
-            z-index: 5;
-        }
-
-        .header__social {
-            display: flex;
-            justify-content: center;
-            gap: 20px;
-            list-style: none;
-            padding: 20px 0;
-            margin: 0;
-        }
-
-        .social-list__item a {
-            display: inline-block;
-        }
-
-        .header-social__link {
-            fill: #936f62;
-        }
-    } */
-
 
 @media (max-width: 826px) {
     .header__navbar {
         height: 100px;
+        background-color: var(--hero-background-color);
+    }
+
+    /* Стилі для логотипу */
+    .header__logo {
+        display: flex;
+        position: relative;
+        transform: translateX(-50%);
+        z-index: 101;
+        background: transparent;
+        margin: 30px 110px;
+        box-sizing: border-box;
     }
 
     .menu__element-link {
         font-family: 'Lato', sans-serif;
         font-size: 17px;
         display: inline-block;
-        color: #936f62;
+        color: var(--text-link-light-pink-color);
         text-decoration: none;
         position: relative;
         font-weight: 570;
@@ -293,10 +179,10 @@
         z-index: 100;
         width: 200px;
         height: 200px;
-        background: #feede0;
+        background: var(--burger-menu-color);
         border-radius: 50%;
-        transition: .5s ease-in-out;
-        box-shadow: 0 0 0 0 #feede0, 0 0 0 0 #feede0;
+        transition: .7s ease-in-out;
+        box-shadow: 0 0 0 0 var(--burger-menu-color), 0 0 0 0 var(--burger-menu-color);
         cursor: pointer;
     }
 
@@ -304,12 +190,12 @@
         position: absolute;
         top: 135px;
         left: 50px;
-        width: 30px;
-        height: 2px;
-        background: #936f62;
+        width: 24px;
+        height: 2.5px;
+        background: var(--hamburger-lines-color);
         display: block;
         transform-origin: center;
-        transition: .5s ease-in-out;
+        transition: .4s ease-in-out;
     }
 
     label .hamburger:after,
@@ -319,16 +205,16 @@
         display: block;
         width: 100%;
         height: 100%;
-        background: #936f62;
-        transition: .5s ease-in-out;
+        background: var(--hamburger-lines-color);
+        transition: .4s ease-in-out;
     }
 
     label .hamburger:before {
-        top: -10px;
+        top: -8px;
     }
 
     label .hamburger:after {
-        bottom: -10px;
+        bottom: -8px;
     }
 
     label .checkbox {
@@ -336,7 +222,7 @@
     }
 
     label .checkbox:checked+.menu {
-        box-shadow: 0 0 0 100vw #feede0, 0 0 0 100vh #feede0;
+        box-shadow: 0 0 0 100vw var(--burger-menu-color), 0 0 0 100vh var(--burger-menu-color);
         height: 100vh;
         border-radius: 0;
         position: fixed;
@@ -345,14 +231,14 @@
     }
 
     label .checkbox:not(:checked)+.menu {
-        box-shadow: 0 0 0 0 #feede0, 0 0 0 0 #feede0;
+        box-shadow: 0 0 0 0 var(--burger-menu-color), 0 0 0 0 var(--burger-menu-color);
         width: 200px;
         height: 200px;
         border-radius: 50%;
         position: fixed;
         right: -100px;
         top: -100px;
-        transition: width .5s ease-in-out, height .5s ease-in-out, box-shadow .5s ease-in-out;
+        transition: width .5s ease-in-out, height 0.3s ease-in-out, box-shadow .5s ease-in-out;
         overflow: hidden;
     }
 
@@ -379,7 +265,6 @@
         pointer-events: all;
     }
 
-
     label ul {
         z-index: 200;
         position: relative;
@@ -387,17 +272,17 @@
         -webkit-transform: translate(-50%, -50%);
         transform: translate(-50%, -50%);
         opacity: 0;
-        transition: .25s 0s ease-in-out;
+        transition: .5s 0s ease-in-out;
         list-style: none;
     }
 
     label ul li {
-        margin-bottom: 20px;
+        padding: 10px 0;
     }
 
     label .checkbox:checked+.menu+.header__menu-items {
         position: fixed;
-        top: 25%;
+        top: 31%;
         left: 50%;
         transform: translate(-50%, -50%);
         width: 100vw;
@@ -422,12 +307,74 @@
         z-index: 101;
     }
 
+    .header__top-menu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .header__top-menu p {
+        margin: 5px 0;
+        color: var(--text-link-light-pink-color);
+        font-size: 12px;
+        font-family: 'Lato', sans-serif;
+        font-weight: 570;
+        white-space: nowrap;
+    }
+
+    .checkbox:checked~.header__menu-items {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .top,
+    .bottom {
+        padding: 10px 0;
+    }
+
+    .header__top-menu a {
+        text-decoration: none !important;
+    }
+
     /* Соціальні іконки */
+    .social-list__item-container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .social-list__item {
+        display: flex;
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        padding: 10px 7px;
+    }
+
+    .social-list__item li {
+        display: flex;
+        align-items: center;
+    }
+
+    .header-social__link {
+        display: flex;
+        width: 30px;
+        height: 30px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .header-social__link svg {
+        fill: var(--text-link-light-pink-color);
+        width: 100%;
+        height: 100%;
+        transition: fill .3s ease;
+    }
+
+    .checkbox:checked~.header__menu-items .social-list__item-container {
+        display: flex;
+    }
 }
-
-
-
-
-
-/* Пробний */
-@media (min-width: 2000px) {}

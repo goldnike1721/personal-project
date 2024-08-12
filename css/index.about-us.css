@@ -1,0 +1,226 @@
+    .about__container-info {
+        padding: 90px 24px;
+    }
+
+    @media (min-width: 826px) {
+        .about__container-info {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .about-background {
+            display: flex;
+            justify-content: flex-end;
+            flex-basis: 50%;
+            padding-right: 20px;
+        }
+
+        .about__content {
+            flex-basis: 50%;
+            padding-left: 20px;
+        }
+
+        .about-background__image {
+            content: url('../img/about-us/general-image.webp');
+            width: 100%;
+            position: relative;
+            width: 570px;
+            height: 573px;
+        }
+
+        .about__text-italic {
+            font-family: 'Niconne' sans-serif;
+            font-style: italic;
+            font-size: 22px;
+            color: var(--text-italic-color);
+        }
+
+        .about__title-text {
+            font-family: 'Lexend', sans-serif;
+            font-size: 42px;
+            color: var(--text-dark-general-color);
+            padding: 20px 0;
+        }
+
+        /* Додати стилі для branch !!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+        .about__branch-image {
+            width: 20px;
+            height: 24px;
+            margin: 0;
+            padding: 0;
+        }
+
+        .about__description-image svg {
+            width: 20px;
+            height: 24px;
+            margin: 0;
+            padding: 0;
+            color: var(--about-us-leaf-image-color);
+        }
+
+        .about__block-description {
+            display: flex;
+            align-items: center;
+            align-items: flex-start;
+            gap: 10px;
+            padding: 0 0 15px 0;
+        }
+
+        .about__heading-text {
+            font-family: 'Lato', sans-serif;
+            font-size: 20px;
+            color: var(--text-tar-black);
+            padding: 55px 0;
+        }
+
+        .about__text-content {
+            font-family: 'Lato', sans-serif;
+            font-size: 17px;
+            color: var(--text-tar-black);
+        }
+
+        .about__caption-text {
+            font-family: 'Lato', sans-serif;
+            font-size: 17px;
+            color: var(--text-tar-light-black);
+            padding: 20px 0 40px 0;
+        }
+
+        .about__content-button {
+            display: flex;
+            gap: 50px;
+        }
+
+        .about__button {
+            height: 58px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 7px;
+            padding: 0 20px;
+            font-family: 'Lato', sans-serif;
+            font-size: 16px;
+            font-weight: 570;
+            box-sizing: border-box;
+            transition: background-color 0.5s ease, color 0.5s ease;
+            cursor: pointer;
+        }
+
+        .about__button {
+            background-color: var(--button-pink-color);
+            color: var(--button-light-text-color);
+        }
+
+        .about__button a {
+            text-decoration: none;
+            color: inherit;
+            display: inline-block;
+        }
+
+        .about__button:hover {
+            background-color: var(--button-background-color);
+        }
+    }
+
+    @media (max-width: 826px) {
+        .about-background {
+            display: block;
+            width: 100%;
+            position: relative;
+        }
+
+        .about__text-italic {
+            font-family: 'Niconne' sans-serif;
+            font-style: italic;
+            font-size: 22px;
+            color: var(--text-italic-color);
+            padding: 50px 0 0 0;
+        }
+
+        .about__title-text {
+            font-family: 'Lexend', sans-serif;
+            font-size: 34px;
+            color: var(--text-dark-general-color);
+            padding: 35px 0;
+        }
+
+        /* Додати стилі для branch !!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+        .about__branch-image {
+            width: 20px;
+            height: 24px;
+            margin: 0;
+            padding: 0;
+        }
+
+        .about__description-image svg {
+            width: 20px;
+            height: 24px;
+            margin: 0;
+            padding: 0;
+            color: var(--about-us-leaf-image-color);
+        }
+
+        .about__block-description {
+            display: flex;
+            align-items: center;
+            align-items: flex-start;
+            gap: 10px;
+            padding: 0 0 25px 0;
+        }
+
+        .about__heading-text {
+            font-family: 'Lato', sans-serif;
+            font-size: 20px;
+            color: var(--text-tar-black);
+            padding: 30px 0;
+        }
+
+        .about__text-content {
+            font-family: 'Lato', sans-serif;
+            font-size: 17px;
+            color: var(--text-tar-black);
+        }
+
+        .about__caption-text {
+            font-family: 'Lato', sans-serif;
+            font-size: 17px;
+            color: var(--text-tar-light-black);
+            padding: 10px 0 40px 0;
+        }
+
+        .about__content-button {
+            display: flex;
+            gap: 50px;
+        }
+
+        .about__button {
+            height: 58px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 7px;
+            padding: 0 20px;
+            font-family: 'Lato', sans-serif;
+            font-size: 16px;
+            font-weight: 570;
+            box-sizing: border-box;
+            transition: background-color 0.5s ease, color 0.5s ease;
+            cursor: pointer;
+        }
+
+        .about__button {
+            background-color: var(--button-pink-color);
+            color: var(--button-light-text-color);
+        }
+
+        .about__button a {
+            text-decoration: none;
+            color: inherit;
+            display: inline-block;
+        }
+
+        .about__button:hover {
+            background-color: var(--button-background-color);
+        }
+    }
