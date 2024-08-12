@@ -1,9 +1,13 @@
-.top-choice__container-image {
+.top-choice__container-image-1,
+.top-choice__container-image-2,
+.top-choice__container-image-3,
+.top-choice__container-image-4,
+.top-choice__container-image-5 {
         display: none
 }
 
 .top-choice__container {
-        padding: 120px 0;
+        padding-top: 40px;
 }
 
 @media (min-width: 826px) {
@@ -12,31 +16,31 @@
                 display: flex;
                 align-items: center;
                 justify-content: flex-start;
+                width: 100vw;
+                height: 85vh;
         }
 
         .top-choice__block {
                 position: absolute;
                 top: 0;
                 left: 0;
-                width: 100%;
-                height: 100%;
                 z-index: 1;
                 overflow: hidden;
         }
 
         .top-choice__block-background {
-                position: absolute;
-                top: 0;
-                left: 0;
-                width: 100%;
-                height: 100%;
+                position: relative;
                 overflow: hidden;
         }
 
         .top-choice__background-image {
+                content: url('../img/top-choice/background-image.png');
                 position: relative;
+                display: block;
                 object-fit: cover;
-                z-index: 1;
+                background-size: cover;
+                width: 100vw;
+                height: 85vh;
         }
 
         .top-choice__content {
@@ -61,7 +65,7 @@
                 font-family: 'Lexend' sans-serif;
                 font-size: 42px;
                 color: var(--text-dark-blue-color);
-                padding: 20px 0 15px 0;
+                padding: 20px 0 35px 0;
         }
 
         .top-choice__branch-image {
@@ -90,12 +94,60 @@
                 margin: 0;
                 padding: 15px 0 50px 0;
         }
+
+        .top-choice__container-image {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding-top: 30px;
+        }
+
+        .top-choice__container-image-1,
+        .top-choice__container-image-2,
+        .top-choice__container-image-3,
+        .top-choice__container-image-4 {
+                display: block;
+
+        }
+
+        .heigh-quality,
+        .best-soap,
+        .top-natural,
+        .best-choice {
+                padding: 0 10px;
+                width: 132px;
+                height: 112px;
+        }
 }
 
 @media (max-width: 826px) {
+        .top-choice__block {
+                position: relative;
+                width: 100vw;
+                height: 100vh;
+                overflow: hidden;
+        }
+
+        .top-choice__block-background {
+                position: relative;
+                overflow: hidden;
+        }
+
+        .top-choice__background-image {
+                transform: translateX(-17%) translateY(100%) scale(4.7);
+                content: url('../img/top-choice/background-image.png');
+                display: block;
+                background-size: cover;
+                background-position: center;
+                width: 100vw;
+                height: 100vh;
+        }
+
+
         .top-choice__content {
                 padding: 0 24px;
                 z-index: 2;
+                position: absolute;
         }
 
         .top-choice__text-italic {
@@ -103,12 +155,14 @@
                 font-style: italic;
                 font-size: 22px;
                 color: var(--text-italic-blue-color);
+                padding-top: 25px;
         }
 
         .top__title-text {
                 font-family: 'Lexend' sans-serif;
                 font-size: 34px;
                 color: var(--text-dark-blue-color);
+                padding: 25px 0;
         }
 
         .top-choice__branch-image {
@@ -118,10 +172,18 @@
                 padding: 0;
         }
 
+        .description {
+                padding: 25px 0 40px 0;
+        }
+
         .top-choice__heading-text {
                 font-family: 'Lato' sans-serif;
                 font-size: 20px;
                 color: var(--text-grey-blue-color);
+        }
+
+        .recomendation {
+                padding: 0 0 35px 0;
         }
 
         .top-choice__paragraph-text {
@@ -135,5 +197,17 @@
                 height: 150px;
                 margin: 0;
                 padding: 0;
+        }
+
+        .top-choice__container-image-1 {
+                display: block;
+
+        }
+
+        .heigh-quality {
+                padding: 0 20px;
+                margin: 0 0 50px 0;
+                width: 343px;
+                height: 291px;
         }
 }
