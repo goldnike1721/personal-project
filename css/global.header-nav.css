@@ -143,7 +143,6 @@
         background-color: var(--hero-background-color);
     }
 
-    /* Стилі для логотипу */
     .header__logo {
         display: flex;
         position: relative;
@@ -340,7 +339,6 @@
         text-decoration: none !important;
     }
 
-    /* Соціальні іконки */
     .social-list__item-container {
         display: flex;
         justify-content: center;

@@ -12,7 +12,6 @@
         top: 0;
         left: 0;
         position: absolute;
-        /* transform: scale(1) translateX(0%) translateY(-5%); */
     }
 
     .header__hero-container {
@@ -36,7 +35,7 @@
         font-style: italic;
         font-size: 22px;
         color: var(--text-italic-color);
-        width: 670px;
+        width: 630px;
     }
 
     .header__title-bold {
@@ -44,7 +43,7 @@
         font-size: 64px;
         color: var(--text-dark-general-color);
         padding: 20px 0 0 0;
-        width: 670px;
+        width: 630px;
     }
 
     .header__placeholder-paragraph {
@@ -52,7 +51,7 @@
         font-size: 20px;
         color: var(--text-graphite-grey);
         padding: 55px 0 45px 0;
-        width: 670px;
+        width: 630px;
     }
 
     .header__button {

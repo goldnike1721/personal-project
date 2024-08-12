@@ -28,8 +28,6 @@
     --linear-underlining-menu: #3d3431;
     --social-link-hover-color: #d8a08d;
     --hamburger-lines-color: #604b43;
-    --text-light-pink: ;
-    --text-dark-pink: ;
     --text-italic-color: #ebbaa9;
     --text-dark-general-color: #333333;
     --text-graphite-grey: #99887d;
@@ -44,6 +42,8 @@
     --text-dark-blue-color: #3d7d72;
     --text-grey-blue-color: #71897d;
     --text-light-blue-color: #849b91;
+    --text-light-pink: ;
+    --text-dark-pink: ;
 }
 
 img {
