@@ -43,10 +43,9 @@
             padding: 20px 0;
         }
 
-        /* Додати стилі для branch !!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
         .about__branch-image {
-            width: 20px;
-            height: 24px;
+            width: 60px;
+            height: 32px;
             margin: 0;
             padding: 0;
         }
@@ -145,10 +144,9 @@
             padding: 35px 0;
         }
 
-        /* Додати стилі для branch !!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
         .about__branch-image {
-            width: 20px;
-            height: 24px;
+            width: 60px;
+            height: 32px;
             margin: 0;
             padding: 0;
         }

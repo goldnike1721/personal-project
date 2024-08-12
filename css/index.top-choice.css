@@ -57,19 +57,17 @@
                 color: var(--text-italic-blue-color);
         }
 
-        .about__title-text {
+        .top__title-text {
                 font-family: 'Lexend' sans-serif;
                 font-size: 42px;
                 color: var(--text-dark-blue-color);
                 padding: 20px 0 15px 0;
         }
 
-        /* Додати стилі для branch !!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
         .top-choice__branch-image {
-                width: 20px;
-                height: 24px;
+                width: 60px;
+                height: 32px;
                 margin: 0;
-                /* padding: 20px 0 0 0; */
         }
 
         .top-choice__heading-text {
@@ -107,16 +105,15 @@
                 color: var(--text-italic-blue-color);
         }
 
-        .about__title-text {
+        .top__title-text {
                 font-family: 'Lexend' sans-serif;
                 font-size: 34px;
                 color: var(--text-dark-blue-color);
         }
 
-        /* Додати стилі для branch !!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
         .top-choice__branch-image {
-                width: 20px;
-                height: 24px;
+                width: 60px;
+                height: 32px;
                 margin: 0;
                 padding: 0;
         }
