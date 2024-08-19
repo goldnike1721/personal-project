@@ -108,6 +108,10 @@
                     height: 31.23dvi;
                 }
 
+                .our-blog__title-description {
+                    min-height: 80px;
+                }
+
                 .our-blog__text-paragraph {
                     min-height: 152.5px;
                 }
