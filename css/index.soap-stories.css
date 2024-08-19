@@ -1,0 +1,147 @@
+.soap-stories {
+    padding: 60px 24px 90px 24px;
+
+    .soap-stories__container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background-color: #fbf0e5;
+        border-radius: 10px;
+
+        .soap-stories__text-italic {
+            font-family: "Niconne", cursive;
+            font-style: italic;
+            font-size: 22px;
+            color: #ebbaa9;
+            font-weight: 400;
+            line-height: 1.5;
+            padding: 60px 25px 30px 25px;
+        }
+
+        .soap-stories__text-text {
+            font-family: 'Lexend', sans-serif;
+            font-size: 34px;
+            color: #ebbaa9;
+            text-align: center;
+            padding: 0 25px;
+        }
+
+        .soap-stories__underlining {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+
+        .sopa-stories__text-description {
+            text-align: center;
+            font-family: 'Lato', sans-serif;
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 1.5;
+            color: #a59489;
+            padding: 0 25px;
+        }
+
+        .soap-stories__button {
+            display: flex;
+            gap: 50px;
+            padding: 30px 25px 70px 25px;
+
+            .soap__button {
+                height: 70px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+                border-radius: 7px;
+                padding: 0 25px;
+                font-family: 'Lato', sans-serif;
+                font-size: 16.5px;
+                font-weight: 570;
+                line-height: 1.5;
+                box-sizing: border-box;
+                transition: background-color 0.5s ease, color 0.5s ease;
+                cursor: pointer;
+                background-color: #ebbaa9;
+                color: #ffffff;
+                text-decoration: none;
+            }
+
+            .soap__button a {
+                text-decoration: none;
+                color: inherit;
+                display: inline-block;
+            }
+
+            .soap__button:hover {
+                background-color: #333333;
+            }
+        }
+    }
+}
+
+@media (min-width: 342px) {
+    .soap-stories {
+        .soap-stories__container {
+            .soap-stories__button {
+
+                .soap__button {
+                    height: 55px;
+                    padding: 0 30px;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 767px) {
+    .soap-stories {
+        padding: 60px 32px 90px 32px;
+
+        .soap-stories__container {
+            max-height: 493.37px;
+            height: 49.64dvi;
+        }
+
+        .soap-stories__content-text {
+            .soap-stories__text-italic {
+                font-size: 26px;
+            }
+        }
+
+        .soap-stories__title {
+            .soap-stories__text-text {
+                font-size: 38px;
+            }
+        }
+    }
+}
+
+@media (min-width: 992px) {
+    .soap-stories {
+        padding: 60px 40px 105px 40px;
+
+        .soap-stories__content-text {
+            .soap-stories__text-italic {
+                font-size: 22px;
+            }
+        }
+
+        .soap-stories__title {
+            .soap-stories__text-text {
+                font-size: 42px;
+            }
+        }
+    }
+}
+
+@media (min-width: 1200px) {
+    .soap-stories {
+        padding: 60px 15px 120px 15px;
+        max-width: 1200px;
+        margin: 0 auto;
+
+    }
+}

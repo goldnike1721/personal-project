@@ -48,7 +48,7 @@
         productsContainer.innerHTML = '';
         for (const product of products) {
             productsContainer.innerHTML += `
-            <section id="shop-${product.id}" class="shop">
+            <div id="shop-${product.id}" class="shop">
                 <div class="shop-block">
                     <div class="shop-block__product">
                         <div class="shop-product__image">
@@ -62,12 +62,12 @@
                         <div class="shop-product__price">
                             <p class="shop-product__price-list">${product.price}</p>
                         </div>
-                        <div class="shop-product__button">
+                        <div class="shop-product__button-general">
                             <a href="#" class="shop__button-cart">Add to Cart ⭢</a>
                         </div>
                     </div>
                 </div>
-            </section>
+            </div>
             `;
         }
         productsContainer.addEventListener('click', productInfoClick);
