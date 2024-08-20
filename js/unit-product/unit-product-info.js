@@ -4,7 +4,6 @@
     if (product) {
         const productContainer = document.querySelector('.product-details');
         productContainer.innerHTML = `
-        <nav data-hx-trigger="load" data-hx-swap="outerHTML" data-hx-get="global.header-nav.partial.html"></nav>
         <section class="products">
             <div class="products-container">
                 <div class="products-container__top">
@@ -103,7 +102,6 @@
                 </div>
             </div>
         </section>
-        <div data-hx-trigger="load" data-hx-swap="outerHTML" data-hx-get="global.footer.partial.html"></div>
         `;
     } else {
         const productContainer = document.querySelector('.product-details');
