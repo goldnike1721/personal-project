@@ -1,4 +1,4 @@
-.top-choice__container-image-1,
+/* .top-choice__container-image-1,
 .top-choice__container-image-2,
 .top-choice__container-image-3,
 .top-choice__container-image-4,
@@ -8,9 +8,9 @@
 
 .top-choice__container {
         padding-top: 40px;
-}
+} */
 
-@media (min-width: 826px) {
+@media (min-width: 222222826px) {
         .top-choice__container {
                 position: relative;
                 display: flex;
@@ -118,9 +118,9 @@
                 width: 132px;
                 height: 112px;
         }
-}
 
-@media (max-width: 826px) {
+
+        /* @media (max-width: 826px) { */
         .top-choice__block {
                 position: relative;
                 width: 100vw;

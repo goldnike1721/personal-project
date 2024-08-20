@@ -39,6 +39,7 @@
         padding: 25px 0;
         font-weight: 400;
         line-height: 1.5;
+        margin: 0;
     }
 
     .categories__paragraph-text {
@@ -48,6 +49,7 @@
         padding-bottom: 30px;
         font-weight: 400;
         line-height: 1.5;
+        margin: 0;
     }
 
     .categories__content-button {
@@ -226,6 +228,10 @@
         .categories__description {
             padding-right: 25px;
             width: 100%;
+
+            .categories__content-button {
+                margin: 0;
+            }
 
             .categories__text-italic {
                 font-size: 22px;
