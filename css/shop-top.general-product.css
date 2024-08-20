@@ -1,0 +1,63 @@
+.store-homepage__top {
+    .store-homepage-container-top {
+        padding: 90px 24px 40px 24px;
+
+        .store-homepage__text-top {
+            font-family: 'Lexend', sans-serif;
+            font-size: 24px;
+            color: #333333;
+            font-weight: 560;
+            margin: 0;
+        }
+
+        .store-homepage__title-text {
+            font-family: 'Lexend', sans-serif;
+            font-size: 24px;
+            color: #333333;
+            font-weight: 560;
+            padding-top: 100px;
+            margin: 0;
+        }
+    }
+}
+
+@media (min-width: 767px) {
+    .store-homepage__top {
+        .store-homepage-container-top {
+            padding: 95px 32px 40px 32px;
+
+            .store-homepage__text-top {
+                font-size: 27px;
+            }
+
+            .store-homepage__title-text {
+                font-size: 27px;
+            }
+        }
+    }
+}
+
+@media (min-width: 992px) {
+    .store-homepage__top {
+        .store-homepage-container-top {
+            padding: 100px 40px 40px 40px;
+
+            .store-homepage__text-top {
+                font-size: 30px;
+            }
+
+            .store-homepage__title-text {
+                font-size: 30px;
+            }
+        }
+    }
+}
+
+@media (min-width: 992px) {
+    .store-homepage__top {
+        .store-homepage-container-top {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+    }
+}

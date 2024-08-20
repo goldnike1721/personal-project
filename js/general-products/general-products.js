@@ -24,7 +24,7 @@
         .catch(error => {
             console.error('Сталася проблема з виконанням запиту:', error);
         });
-        
+
     function shuffleArray(array) {
         for (let i = array.length - 1; i > 0; i--) {
             const j = Math.floor(Math.random() * (i + 1));
@@ -50,7 +50,7 @@
         productsContainer.innerHTML = '';
         for (const product of products) {
             productsContainer.innerHTML += `
-            <div class="store-homepage-block">
+            <div id="store-homepage" class="store-homepage-block">
                 <div class="store-homepage-block__product">
                     <div class="store-homepage-product__image">
                         <a class="store-homepage-product__image-link" href="product.html?id=${product.id}" data-id="${product.id}">
