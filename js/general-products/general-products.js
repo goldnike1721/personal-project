@@ -54,7 +54,7 @@
                 <div class="store-homepage-block__product">
                     <div class="store-homepage-product__image">
                         <a class="store-homepage-product__image-link" href="product.html?id=${product.id}" data-id="${product.id}">
-                            <img class="store-homepage__image" width="150" src="${product.image}" alt="${product.altText}">
+                            <img class="store-homepage__image" src="${product.image}" alt="${product.altText}">
                         </a>
                     </div>
                     <div class="store-homepage-product__name">

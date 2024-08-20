@@ -1,5 +1,34 @@
 <section class="store-homepage__bottom">
-    <div class="store-homepage-bottom-container">
+    <nav aria-label="Page navigation example">
+        <ul class="pagination">
+            <li class="page-item">
+                <a class="page-link" href="#" aria-label="Previous">
+                    <span aria-hidden="true">&laquo;</span>
+                </a>
+            </li>
+            <li class="page-item"><a class="page-link" href="#">1</a></li>
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item">
+                <a class="page-link" href="#" aria-label="Next">
+                    <span aria-hidden="true">&raquo;</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <div class="store-homepage__per-page">
+        <label for="store-homepage__label">Products per page:</label>
+        <select id="store-homepage__per-page">
+            <option value="10">5</option>
+            <option value="10" selected>10</option>
+            <option value="20">20</option>
+            <option value="50">50</option>
+            <option value="100">100</option>
+        </select>
+    </div>
+</section>
+
+<!-- <div class="store-homepage-bottom-container">
         <div class="store-homepage__per-page">
             <label for="store-homepage__per-page">Products per page:</label>
             <select id="store-homepage__per-page">
@@ -15,4 +44,4 @@
             <span class="store-homepage__page-active">1</span>
         </div>
     </div>
-</section>
+</section> -->
