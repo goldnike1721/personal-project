@@ -23,6 +23,12 @@
             font-size: 34px;
             color: #333333;
             padding-top: 30px;
+            font-weight: 700;
+            line-height: 1.5;
+
+            .our-blog__title-text-span {
+                color: #ebbaa9;
+            }
         }
     }
 

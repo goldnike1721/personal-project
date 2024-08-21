@@ -25,6 +25,8 @@
             color: #ebbaa9;
             text-align: center;
             padding: 0 25px;
+            font-weight: 700;
+            line-height: 1.5;
         }
 
         .soap-stories__underlining {

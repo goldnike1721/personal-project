@@ -43,6 +43,10 @@
                     font-weight: 700;
                     padding-top: 15px;
                     margin: 0;
+
+                    .header__title-bold-span {
+                        color: #ebbaa9;
+                    }
                 }
 
                 .header__placeholder-paragraph {

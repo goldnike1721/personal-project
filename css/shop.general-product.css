@@ -6,7 +6,7 @@
             padding-bottom: 10px;
 
             .store-homepage__image {
-                border-radius: 10px;
+                border-radius: 10% 50% 10%50%/ 50% 10% 50% 10%;
             }
         }
 

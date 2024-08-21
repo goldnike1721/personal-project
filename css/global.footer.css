@@ -67,6 +67,10 @@
                         color: #ebbaa9;
                         margin: 0 auto;
                         padding-bottom: 10px;
+
+                        .footer-navigation__name-title-span {
+                            color: #a59489;
+                        }
                     }
                 }
 
@@ -125,6 +129,10 @@
                         font-weight: 600;
                         color: #ebbaa9;
                         margin: 0 auto;
+
+                        .footer-contacts__name-title-span {
+                            color: #a59489;
+                        }
                     }
                 }
 
@@ -197,6 +205,10 @@
                         color: #936f62;
                         margin: 0 auto;
                         max-width: 340px;
+
+                        .footer-subscribe__title-text-span {
+                            color: #ebbaa9;
+                        }
                     }
                 }
 

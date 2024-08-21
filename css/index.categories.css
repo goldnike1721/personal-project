@@ -23,6 +23,12 @@
         font-size: 34px;
         color: #333333;
         padding: 30px 0;
+        font-weight: 700;
+        line-height: 1.5;
+
+        .categories__title-text-span {
+            color: #ebbaa9;
+        }
     }
 
     .categories__branch-image {

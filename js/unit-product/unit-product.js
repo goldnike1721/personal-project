@@ -53,7 +53,7 @@
                     <div class="shop-block__product">
                         <div class="shop-product__image">
                             <a class="shop-product__image-link" href="product.html?id=${product.id}" data-id="${product.id}">
-                                <img class="shop__image" width="150" src="${product.image}" alt="${product.altText}">
+                                <img class="shop__image" src="${product.image}" alt="${product.altText}">
                             </a>
                         </div>
                         <div class="shop-product__name">

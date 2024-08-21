@@ -28,6 +28,10 @@
                 line-height: 1.5;
                 padding-top: 20px;
                 margin: 0;
+
+                .about__title-text-span {
+                    color: #ebbaa9;
+                }
             }
 
             .about__content-image {

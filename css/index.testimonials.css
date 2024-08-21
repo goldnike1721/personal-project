@@ -28,6 +28,12 @@
             font-size: 34px;
             color: #333333;
             padding: 20px 0 30px 0;
+            font-weight: 700;
+            line-height: 1.5;
+
+            .testimonials__title-text-span {
+                color: #ebbaa9;
+            }
         }
 
         .testimonials-block__image-center {

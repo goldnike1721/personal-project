@@ -54,6 +54,10 @@
                 height: 204px;
                 width: 63.75dvi;
                 height: 63.75dvi;
+
+                .products-carousel__image {
+                    border-radius: 10% 50% 10%50%/ 50% 10% 50% 10%;
+                }
             }
 
             .products-contents__bottom-image {
@@ -71,6 +75,7 @@
                         height: 33.33px;
                         width: 10.42dvi;
                         height: 10.42dvi;
+                        border-radius: 10% 50% 10%50%/ 50% 10% 50% 10%;
                     }
                 }
             }
