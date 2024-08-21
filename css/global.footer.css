@@ -84,9 +84,33 @@
                             color: #a59489;
                             font-weight: 600;
                             margin: 0 auto;
-                            padding: 10px 0;
+                            margin: 10px 0;
                             text-decoration: none;
+                            position: relative;
+                            display: inline-block;
+                            transition: color 0.7s ease;
                         }
+
+                        .footer-item__menu::after {
+                            content: '';
+                            display: block;
+                            position: absolute;
+                            left: 0;
+                            bottom: 0;
+                            width: 0;
+                            height: 2px;
+                            background-color: #3d3431;
+                            transition: width 0.7s ease;
+                        }
+
+                        .footer-item__menu:hover {
+                            color: #3d3431;
+                        }
+
+                        .footer-item__menu:hover::after {
+                            width: 100%;
+                        }
+
                     }
                 }
             }
@@ -132,6 +156,29 @@
                                 font-weight: 600;
                                 margin: 0 auto;
                                 text-decoration: none;
+                                position: relative;
+                                display: inline-block;
+                                transition: color 0.7s ease;
+                            }
+
+                            .footer-item__link::after {
+                                content: '';
+                                display: block;
+                                position: absolute;
+                                left: 0;
+                                bottom: 0;
+                                width: 0;
+                                height: 2px;
+                                background-color: #936f62;
+                                transition: width 0.7s ease;
+                            }
+
+                            .footer-item__link:hover {
+                                color: #936f62;
+                            }
+
+                            .footer-item__link:hover::after {
+                                width: 100%;
                             }
                         }
                     }
