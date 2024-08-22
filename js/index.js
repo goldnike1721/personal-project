@@ -1,11 +1,17 @@
 function init() {
     import("./unit-product/carousel-product.js");
+    import("modal-window.top-choice.js");
 }
+document.addEventListener('DOMContentLoaded', () => {
+    const modal = document.getElementById('myModal');
 
-const totalPartials = document.querySelectorAll('[hx-trigger="load"], [data-hx-trigger="load"]').length;
-let loadedPartialsCount = 0;
+    // Додаємо клас, щоб запобігти прокрутці
+    modal.addEventListener('show.bs.modal', () => {
+        document.body.classList.add('modal-open');
+    });
 
-document.body.addEventListener('htmx:afterOnLoad', () => {
-    loadedPartialsCount++;
-    if (loadedPartialsCount === totalPartials) init();
+    // Видаляємо клас, щоб відновити прокрутку
+    modal.addEventListener('hidden.bs.modal', () => {
+        document.body.classList.remove('modal-open');
+    });
 });
