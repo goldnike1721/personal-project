@@ -14,32 +14,77 @@
                             </a>
                         </div>
                     </div>
-                    <div class="products-container__contents">
-                        <div class="products-contents__carousel">
-                            <div class="products-contents__carousel-image">
-                                <img class="products-carousel__image" src="${product.image}" alt="${product.altText}">
+                    <div class="container">
+                        <div id="myCarousel" class="carousel slide" data-interval="false">
+                            <div class="carousel-inner products-container__contents" role="listbox">
+                                <div class="item active">
+                                    <div class="products-contents__carousel">
+                                        <div class="products-contents__carousel-image">
+                                            <img class="products-carousel__image"
+                                                src="${product.image}" alt="${product.altText}">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="products-contents__carousel">
+                                        <div class="products-contents__carousel-image">
+                                            <img class="products-carousel__image"
+                                                src="${product.image2}" alt="${product.altText}">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="products-contents__carousel">
+                                        <div class="products-contents__carousel-image">
+                                            <img class="products-carousel__image"
+                                                src="${product.image3}" alt="${product.altText}">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="products-contents__carousel">
+                                        <div class="products-contents__carousel-image">
+                                            <img class="products-carousel__image"
+                                                src="${product.image4}" alt="${product.altText}">
+                                        </div>
+                                    </div>
+                                </div>
+                                <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                                    <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                                    <span class="sr-only">Next</span>
+                                </a>
                             </div>
-                        </div>
-                        <div class="products-contents__bottom-image">
-                            <div class="products-bottom__image">
-                                <img class="products-additionally__image" src="${product.smallimage}" alt="${product.altText}">
+                            <div id="thumbCarousel" class="products-contents__bottom-image">
+                                <div data-target="#myCarousel" data-slide-to="0"
+                                    class="thumb active products-bottom__image">
+                                    <img class="products-additionally__image"
+                                        src="${product.image}" alt="${product.altText}">
+                                </div>
+                                <div data-target="#myCarousel" data-slide-to="1" class="thumb products-bottom__image">
+                                    <img class="products-additionally__image"
+                                        src="${product.image2}" alt="${product.altText}">
+                                </div>
+                                <div data-target="#myCarousel" data-slide-to="2" class="thumb products-bottom__image">
+                                    <img class="products-additionally__image"
+                                        src="${product.image3}" alt="${product.altText}">
+                                </div>
+                                <div data-target="#myCarousel" data-slide-to="3" class="thumb products-bottom__image">
+                                    <img class="products-additionally__image"
+                                        src="${product.image4}" alt="${product.altText}">
+                                </div>
                             </div>
-                            <div class="products-bottom__image">
-                                <img class="products-additionally__image" src="${product.smallimage}" alt="${product.altText}">
-                            </div>
-                            <div class="products-bottom__image">
-                                <img class="products-additionally__image" src="${product.smallimage}" alt="${product.altText}">
-                            </div>
-                            <div class="products-bottom__image">
-                                <img class="products-additionally__image" src="${product.smallimage}" alt="${product.altText}">
-                            </div>
+
                         </div>
                     </div>
                 </div>
                 <div class="products-description">
                     <div class="products-description__top">
                         <div class="products-description__stock">
-                            <p class="products-description__stock-text">In stock</p>
+                            <p class="products-description__stock-text">${product.stock}</p>
                         </div>
                         <div class="products-description__title">
                             <h1 class="products-description__title-text">${product.title}</h1>
@@ -63,9 +108,10 @@
                             </div>
                         </div>
                     </div>
-                   <div class="products-description__tab-container">
+                    <div class="products-description__tab-container">
                         <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
-                            <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" checked>
+                            <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off"
+                                checked>
                             <label class="btn btn-outline-primary" for="btnradio1">DESCRIPTION</label>
 
                             <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off">
@@ -75,7 +121,8 @@
                             <label class="btn btn-outline-primary" for="btnradio3">INGREDIENTS</label>
                         </div>
 
-                        <div id="products-description__description" class="products-description__tab products-description__tab-active">
+                        <div id="products-description__description"
+                            class="products-description__tab products-description__tab-active">
                             <div class="products-description__composition">
                                 <p class="products-description__composition-text">${product.description}</p>
                             </div>

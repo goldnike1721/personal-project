@@ -9,20 +9,12 @@
     }
 
     fetch('js/db.json')
-        .then(response => {
-            if (!response.ok) {
-                throw new Error('Помилка мережевого запиту: ' + response.statusText);
-            }
-            return response.json();
-        })
+        .then(response => response.json())
         .then(data => {
             products = data;
             console.log(products);
             shuffleArray(products);
             renderProducts(products);
-        })
-        .catch(error => {
-            console.error('Сталася проблема з виконанням запиту:', error);
         });
 
     function shuffleArray(array) {
