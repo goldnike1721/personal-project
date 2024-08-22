@@ -110,38 +110,40 @@
                     </div>
                     <div class="products-description__tab-container">
                         <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
-                            <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off"
-                                checked>
+                            <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" checked>
                             <label class="btn btn-outline-primary" for="btnradio1">DESCRIPTION</label>
-
                             <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off">
                             <label class="btn btn-outline-primary" for="btnradio2">USAGE</label>
-
                             <input type="radio" class="btn-check" name="btnradio" id="btnradio3" autocomplete="off">
                             <label class="btn btn-outline-primary" for="btnradio3">INGREDIENTS</label>
                         </div>
-
-                        <div id="products-description__description"
-                            class="products-description__tab products-description__tab-active">
-                            <div class="products-description__composition">
-                                <p class="products-description__composition-text">${product.description}</p>
-                            </div>
-                        </div>
-                        <div id="products-description__usage" class="products-description__tab-1">
-                            <div class="products-description__composition">
-                                <p class="products-description__composition-text">${product.usage}</p>
-                            </div>
-                        </div>
-                        <div id="products-description__ingredients" class="products-description__tab-1">
-                            <div class="products-description__composition">
-                                <p class="products-description__composition-text">${product.ingredients}</p>
-                            </div>
+                        <div id="description" class="description">
                         </div>
                     </div>
                 </div>
             </div>
         </section>
         `;
+        const descriptionDiv = document.getElementById('description');
+        const radios = document.querySelectorAll('.btn-check');
+
+        const descriptions = {
+            btnradio1: product.description,
+            btnradio2: product.usage,
+            btnradio3: product.ingredients
+        };
+
+        function updateDescription() {
+            const selectedId = document.querySelector('.btn-check:checked').id;
+            descriptionDiv.textContent = descriptions[selectedId] || 'Опис недоступний.';
+        }
+
+        radios.forEach(radio => {
+            radio.addEventListener('change', updateDescription);
+        });
+
+        updateDescription();
+
     } else {
         const productContainer = document.querySelector('.product-details');
         productContainer.innerHTML = '<p>Product not found.</p>';

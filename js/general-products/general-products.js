@@ -56,7 +56,7 @@
                         <p class="store-homepage-product__price-list">${product.price}</p>
                     </div>
                     <div class="store-homepage-product__button">
-                        <a href="#" class="store-homepage__button-cart" data-id="${product.id}">Buy</a>
+                        <a href="#" class="store-homepage__button-cart" data-id="#">Buy</a>
                     </div>
                 </div>
             </div>

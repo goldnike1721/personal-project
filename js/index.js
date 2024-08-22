@@ -1,6 +1,5 @@
 function init() {
     import("./unit-product/carousel-product.js");
-    import("./unit-product/radio-menu.js");
 }
 
 const totalPartials = document.querySelectorAll('[hx-trigger="load"], [data-hx-trigger="load"]').length;
