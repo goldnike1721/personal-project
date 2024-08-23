@@ -62,7 +62,7 @@
 
 .store-homepage__per-page select:focus {
     outline: none;
-    border-color: #735e55;
+    border-color: #333333;
     background-color: #ffffff;
 }
 

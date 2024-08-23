@@ -386,6 +386,12 @@
                     flex-direction: column;
                 }
             }
+
+            .products-description__tab-container {
+                .description {
+                    max-width: 400px;
+                }
+            }
         }
     }
 }
