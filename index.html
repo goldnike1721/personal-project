@@ -17,7 +17,11 @@
 
 <body>
     <header>
-        <nav data-hx-trigger="load" data-hx-swap="outerHTML" data-hx-get="global.header-nav.partial.html"></nav>
+        <div class="header__background">
+            <div class="header__container container">
+                <nav data-hx-trigger="load" data-hx-swap="outerHTML" data-hx-get="global.header-nav.partial.html"></nav>
+            </div>
+        </div>
         <div data-hx-trigger="load" data-hx-swap="outerHTML" data-hx-get="index.header-hero.partial.html"></div>
     </header>
     <main>
@@ -52,6 +56,7 @@
         crossorigin="anonymous"></script>
     <script src="js/index.js"></script>
     <script src="js/unit-product/unit-product.js"></script>
+    <script src="js/burger-menu.js"></script>
 </body>
 
 </html>
