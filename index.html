@@ -16,13 +16,13 @@
 </head>
 
 <body>
-    <header>
+    <header class="header">
         <div class="header__background">
             <div class="header__container container">
                 <nav data-hx-trigger="load" data-hx-swap="outerHTML" data-hx-get="global.header-nav.partial.html"></nav>
             </div>
         </div>
-        <div data-hx-trigger="load" data-hx-swap="outerHTML" data-hx-get="index.header-hero.partial.html"></div>
+        <section data-hx-trigger="load" data-hx-swap="outerHTML" data-hx-get="index.header-hero.partial.html"></section>
     </header>
     <main>
         <section data-hx-trigger="load" data-hx-swap="outerHTML" data-hx-get="index.about-us.partial.html"></section>
@@ -56,7 +56,6 @@
         crossorigin="anonymous"></script>
     <script src="js/index.js"></script>
     <script src="js/unit-product/unit-product.js"></script>
-    <script src="js/burger-menu.js"></script>
 </body>
 
 </html>

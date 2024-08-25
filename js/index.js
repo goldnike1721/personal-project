@@ -1,5 +1,4 @@
 function init() {
-    import("./unit-product/carousel-product.js");
     import("./burger-menu.js");
 }
 

@@ -17,8 +17,12 @@
 </head>
 
 <body>
-    <header>
-        <nav data-hx-trigger="load" data-hx-swap="outerHTML" data-hx-get="global.header-nav.partial.html"></nav>
+    <header class="header">
+        <div class="header__background">
+            <div class="header__container container">
+                <nav data-hx-trigger="load" data-hx-swap="outerHTML" data-hx-get="global.header-nav.partial.html"></nav>
+            </div>
+        </div>
     </header>
     <main>
         <section class="product-details"></section>
@@ -31,8 +35,9 @@
         crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <script type="module" src="js/index.js"></script>
+    <script src="js/index.js"></script>
     <script src="js/unit-product/unit-product-info.js"></script>
+    <script src="js/unit-product/carousel-product.js"></script>
 </body>
 
 </html>

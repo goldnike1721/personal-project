@@ -16,8 +16,12 @@
 </head>
 
 <body>
-    <header>
-        <nav data-hx-trigger="load" data-hx-swap="outerHTML" data-hx-get="global.header-nav.partial.html"></nav>
+    <header class="header">
+        <div class="header__background">
+            <div class="header__container container">
+                <nav data-hx-trigger="load" data-hx-swap="outerHTML" data-hx-get="global.header-nav.partial.html"></nav>
+            </div>
+        </div>
     </header>
     <main>
         <section data-hx-trigger="load" data-hx-swap="outerHTML" data-hx-get="shop-top.general-product.partial.html">
