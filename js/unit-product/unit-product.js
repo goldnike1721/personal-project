@@ -8,13 +8,25 @@
         }
     }
 
+    function getProductsToShow() {
+        const screenWidth = window.innerWidth;
+        return screenWidth <= 767 ? 8 : screenWidth < 992 ? 9 : 12;
+    }
+
+    function updateProductDisplay() {
+        const productsToShow = getProductsToShow();
+        const productsToRender = products.slice(0, productsToShow);
+        renderProducts(productsToRender);
+    }
+
     fetch('js/db.json')
         .then(response => response.json())
         .then(data => {
             products = data;
             console.log(products);
             shuffleArray(products);
-            renderProducts(products);
+            updateProductDisplay();
+            window.addEventListener('resize', updateProductDisplay); // Оновлює відображення при зміні розміру екрану
         });
 
     function shuffleArray(array) {

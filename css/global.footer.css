@@ -46,7 +46,7 @@
                         .footer-social__link-image svg {
                             border-radius: 5px;
                             fill: #ebbaa9;
-                            transition: fill 0.3s ease;
+                            transition: fill .3s ease;
                         }
 
                         .footer-social__link-image svg:hover {
@@ -92,7 +92,7 @@
                             text-decoration: none;
                             position: relative;
                             display: inline-block;
-                            transition: color 0.7s ease;
+                            transition: color .7s ease;
                         }
 
                         .footer-item__menu::after {
@@ -104,7 +104,7 @@
                             width: 0;
                             height: 2px;
                             background-color: #3d3431;
-                            transition: width 0.7s ease;
+                            transition: width .7s ease;
                         }
 
                         .footer-item__menu:hover {
@@ -166,7 +166,7 @@
                                 text-decoration: none;
                                 position: relative;
                                 display: inline-block;
-                                transition: color 0.7s ease;
+                                transition: color .7s ease;
                             }
 
                             .footer-item__link::after {
@@ -178,7 +178,7 @@
                                 width: 0;
                                 height: 2px;
                                 background-color: #936f62;
-                                transition: width 0.7s ease;
+                                transition: width .7s ease;
                             }
 
                             .footer-item__link:hover {
@@ -247,7 +247,7 @@
                     background-color: #ebbaa9;
                     color: #ffffff;
                     box-sizing: border-box;
-                    transition: background-color 0.5s ease, color 0.5s ease;
+                    transition: background-color .5s ease, color .5s ease;
                     cursor: pointer;
                     border: none;
                 }

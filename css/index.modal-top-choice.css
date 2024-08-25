@@ -23,7 +23,7 @@ body.modal-open {
             .modal-body {
                 .carousel-item {
                     background-color: transparent;
-                    transition: transform 1s ease-in-out;
+                    transition: transform .7s ease-in-out;
 
                     .carousel-item__image {
                         display: flex;

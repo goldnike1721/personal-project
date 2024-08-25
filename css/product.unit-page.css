@@ -15,7 +15,7 @@
                     margin: 0;
                     position: relative;
                     display: inline-block;
-                    transition: color 0.7s ease;
+                    transition: color .7s ease;
                 }
 
                 .products-top__title-text::after {
@@ -27,7 +27,7 @@
                     width: 0;
                     height: 2px;
                     background-color: #3d3431;
-                    transition: width 0.7s ease;
+                    transition: width .7s ease;
                 }
 
                 .products-top__title-text:hover {
@@ -120,12 +120,12 @@
 
             .carousel-control {
                 opacity: 0;
-                transition: opacity 0.5s ease;
+                transition: opacity .5s ease;
             }
 
             .products-container__contents:hover .carousel-control {
                 opacity: 1;
-                transition: opacity 0.5s ease;
+                transition: opacity .5s ease;
             }
 
             .products-contents__carousel-image img:hover,
@@ -255,7 +255,7 @@
                     font-size: 15px;
                     font-weight: 570;
                     box-sizing: border-box;
-                    transition: background-color 0.5s ease, color 0.5s ease;
+                    transition: background-color .5s ease, color .5s ease;
                     cursor: pointer;
                     background-color: #968A80;
                     color: #ffffff;
