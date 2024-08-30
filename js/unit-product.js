@@ -1,13 +1,6 @@
 (function () {
     let products = [];
 
-    function shuffleArray(array) {
-        for (let i = array.length - 1; i > 0; i--) {
-            const j = Math.floor(Math.random() * (i + 1));
-            [array[i], array[j]] = [array[j], array[i]];
-        }
-    }
-
     function getProductsToShow() {
         const screenWidth = window.innerWidth;
         return screenWidth <= 767 ? 8 : screenWidth < 992 ? 9 : 12;
@@ -19,7 +12,7 @@
         renderProducts(productsToRender);
     }
 
-    fetch('js/db.json')
+    fetch('api/products.json')
         .then(response => response.json())
         .then(data => {
             products = data;

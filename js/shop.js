@@ -1,6 +1,6 @@
 function init() {
     import("./global.burger-menu.js");
-    import("./unit-product.js")
+    import("./general-products.js")
 }
 
 
