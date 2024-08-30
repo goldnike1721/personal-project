@@ -79,7 +79,6 @@
      }
  }
 
-
  @media (min-width: 767px) {
      .bath-routine {
          .bath-routine__container {
@@ -106,7 +105,7 @@
 
              .bath-routine__block-bottom {
                  padding: 105px 30px;
-                 width: 90%;
+                 width: 100%;
 
                  .bath-routine__text {
                      .bath-routine__text-italic {
@@ -156,13 +155,34 @@
      }
  }
 
- @media (min-width: 1250px) {
+ @media (min-width: 1200px) {
      .bath-routine {
          .bath-routine__container {
              margin: 0 auto;
 
-             .bath-routine__block-bottom {
+             .bath-routine__container {
+                 .bath-routine__block-background {
+                     .bath-background-image {
+                         width: 60.93dvi;
+                     }
+                 }
+             }
+
+             .bath-routine__block-top {
+                 max-height: 725.5px;
                  margin: 0 auto;
+                 width: 50%;
+             }
+
+             .bath-routine__block-bottom {
+                 display: flex;
+                 flex-direction: column;
+                 align-items: center;
+                 justify-content: flex-start;
+                 text-align: start;
+                 max-height: 725.5px;
+                 width: 50%;
+                 padding: 120px 15px 120px 30px;
 
                  .bath-routine__text,
                  .bath-routine__title,
@@ -170,8 +190,10 @@
                  .bath-routine__quote,
                  .bath-routine__author,
                  .bath-routine__image-width {
-                     width: 570px;
-                     margin: 0 auto;
+                     width: 555px;
+                     margin: 0;
+                     justify-content: center;
+                     align-self: self-start;
                  }
              }
          }

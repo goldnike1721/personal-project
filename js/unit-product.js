@@ -19,7 +19,7 @@
             console.log(products);
             shuffleArray(products);
             updateProductDisplay();
-            window.addEventListener('resize', updateProductDisplay); // Оновлює відображення при зміні розміру екрану
+            // window.addEventListener('resize', updateProductDisplay);
         });
 
     function shuffleArray(array) {
@@ -40,7 +40,7 @@
         }
     }
 
-    function renderProducts(products) {
+    function renderProducts(products, rate = 1) {
         const productsContainer = document.querySelector('.product-list');
         productsContainer.innerHTML = '';
         for (const product of products) {
@@ -57,7 +57,7 @@
                             <a href="product.html?id=${product.id}" class="info-link" data-id="${product.id}">${product.linkText}</a>
                         </div>
                         <div class="shop-product__price">
-                            <p class="shop-product__price-list">${product.price}</p>
+                            <p class="shop-product__price-list">${(product.price * rate).toFixed(2)}</p>
                         </div>
                         <div class="shop-product__button-general">
                             <a href="#" class="shop__button-cart">Add to Cart ⭢</a>
@@ -69,4 +69,17 @@
         }
         productsContainer.addEventListener('click', productInfoClick);
     }
+
+    let currencies;
+    async function changeCurrency() {
+        if (!currencies) {
+            const response = await fetch('https://api.exchangerate-api.com/v4/latest/USD');
+            currencies = await response.json();
+        }
+        const selectedCurrency = document.querySelector('.products__currency').value;
+        const rate = currencies.rates[selectedCurrency];
+        renderProducts(products, rate);
+    }
+
+    document.querySelector('.products__currency').addEventListener('change', changeCurrency);
 })();

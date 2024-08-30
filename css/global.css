@@ -18,32 +18,33 @@
 :root {
     scroll-behavior: smooth;
 
-    --standart-background-color: linear-gradient(to right, #fef1e5, #ffefe4, #feece1, #fdeadd, #f6e2d7);
-    --hero-background-color: #feece1;
-    --bottom-background-color: #fef4e9;
-    --top-menu-background-color: #e8d9d0;
-    --text-link-dark-pink-color: #3d3431;
-    --text-link-light-pink-color: #936f62;
-    --burger-menu-color: #feece1;
-    --linear-underlining-menu: #3d3431;
-    --social-link-hover-color: #d8a08d;
-    --hamburger-lines-color: #604b43;
-    --text-italic-color: #ebbaa9;
-    --text-dark-general-color: #333333;
-    --text-graphite-grey: #99887d;
-    --text-tar-black: #a59489;
-    --text-tar-light-black: #b4a79e;
-    --button-background-color: #333333;
-    --button-pink-color: #ebbaa9;
-    --button-border-color: #333333;
-    --button-light-text-color: #ffffff;
-    --about-us-leaf-image-color: #ebbaa9;
-    --text-italic-blue-color: #879991;
-    --text-dark-blue-color: #3d7d72;
-    --text-grey-blue-color: #71897d;
-    --text-light-blue-color: #849b91;
-    --text-light-pink: ;
-    --text-dark-pink: ;
+    --header-nav-background-color-mobile: linear-gradient(to right, #feeee2, #feece1, #feebe0, #feece1);
+    --header-nav-background-color-537px: linear-gradient(to right, #fdf0e3, #feede0, #feecdf, #fdeadf);
+    --header-nav-background-color-768px: linear-gradient(to right, #feeee2, #feede0, #feece1, #feece1, #fdeadd);
+    --header-nav-background-color-992px: linear-gradient(to right, #feeee3, #feecdf, #feeee2, #feebde, #feece1, #feecdf, #feece1, #fdebe0, #fce9df);
+    --header-nav-element-list: #936f62;
+    --header-nav-element-link: #936f62;
+    --header-nav-element-link-after: #3d3431;
+    --header-nav-element-link-hover: #3d3431;
+    --header-nav-title-text: #936f62;
+    --header-nav-social-link: #fef1e5;
+    --header-nav-social-link-svg: #936f62;
+    --header-nav-social-link-svg-background: #fef1e5;
+    --header-nav-social-link-hover: #d8a08d;
+    --header-nav-background-burger-active: rgba(254, 241, 229, 1);
+    --header-nav-menu-btn: #ffffff;
+    --header-nav-navicon-background: #000000;
+    --header-nav-navicon-after: #000000;
+    --header-nav-navicon-before: #000000;
+    --header-nav-background-burger: #fef1e5;
+    --header-nav --header-nav --header-nav --header-nav;
+
+
+
+
+    --font-family-coursive: 'Lato', sans-serif;
+    --font-family-title: 'Lexend', sans-serif;
+    --font-family-text: "Niconne", cursive;
 }
 
 img {
@@ -60,8 +61,3 @@ img {
     width: 100%;
     margin: auto;
 }
-
-/* fonts */
-
-/* "Niconne",
-cursive; */

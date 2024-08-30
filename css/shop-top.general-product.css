@@ -2,21 +2,96 @@
     .store-homepage-container-top {
         padding: 90px 24px 40px 24px;
 
-        .store-homepage__text-top {
-            font-family: 'Lexend', sans-serif;
-            font-size: 24px;
-            color: #333333;
-            font-weight: 560;
-            margin: 0;
+        .store-homepage-container-text {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .store-homepage__text-top {
+                font-family: 'Lexend', sans-serif;
+                font-size: 30px;
+                color: #333333;
+                font-weight: 700;
+                line-height: 1.5;
+                margin: 0;
+
+                .store-homepage__text-span {
+                    color: #ebbaa9;
+                }
+            }
         }
 
         .store-homepage__title-text {
             font-family: 'Lexend', sans-serif;
-            font-size: 24px;
+            font-size: 30px;
             color: #333333;
-            font-weight: 560;
-            padding-top: 100px;
+            font-weight: 700;
+            line-height: 1.5;
             margin: 0;
+            padding-top: 70px;
+        }
+    }
+
+    .shop__currency {
+        display: flex;
+        align-items: center;
+        gap: 30px;
+        padding-top: 30px;
+
+        .shop-currency__text {
+            .shop-currency__text-title {
+                font-family: 'Lato', sans-serif;
+                font-size: 17px;
+                color: #a59489;
+                font-weight: 400;
+                line-height: 1.5;
+                margin: 0;
+            }
+        }
+
+        .shop-container__currency {
+            position: relative;
+            display: inline-block;
+            border: 2px solid #dddddd;
+            border-radius: 5px;
+            overflow: hidden;
+            background: #fbf0e5;
+        }
+
+        .products__currency {
+            appearance: none;
+            background-color: transparent;
+            border: none;
+            padding: 10px 15px;
+            font-size: 14px;
+            width: 80px;
+            height: 40px;
+            font-weight: bold;
+            color: #333333;
+            cursor: pointer;
+            outline: none;
+            border-radius: 0;
+            transition: background-color 0.3s ease;
+        }
+
+        .products__currency:hover {
+            background-color: #fbf0e5;
+        }
+
+        .products__currency:focus {
+            border: none;
+            box-shadow: 0 0 0 2px #555555;
+        }
+
+        .shop-container__currency::after {
+            content: '▼';
+            position: absolute;
+            top: 50%;
+            right: 15px;
+            transform: translateY(-50%);
+            font-size: 12px;
+            pointer-events: none;
+            color: #555555;
         }
     }
 }
@@ -26,12 +101,22 @@
         .store-homepage-container-top {
             padding: 95px 32px 40px 32px;
 
-            .store-homepage__text-top {
-                font-size: 27px;
+            .store-homepage-container-text {
+                .store-homepage__text-top {
+                    font-size: 34px;
+                }
             }
 
             .store-homepage__title-text {
                 font-size: 27px;
+            }
+        }
+
+        .shop__currency {
+            .shop-currency__text {
+                .shop-currency__text-title {
+                    font-size: 20px;
+                }
             }
         }
     }
@@ -42,8 +127,10 @@
         .store-homepage-container-top {
             padding: 100px 40px 40px 40px;
 
-            .store-homepage__text-top {
-                font-size: 30px;
+            .store-homepage-container-text {
+                .store-homepage__text-top {
+                    font-size: 42px;
+                }
             }
 
             .store-homepage__title-text {

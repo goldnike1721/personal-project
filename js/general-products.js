@@ -30,7 +30,7 @@
         }
     }
 
-    function renderProducts(products) {
+    function renderProducts(products, rate = 1) {
         const productsContainer = document.querySelector('.general-product-list');
         productsContainer.innerHTML = '';
         for (const product of products) {
@@ -46,7 +46,7 @@
                         <a href="product.html?id=${product.id}" class="store-homepage-product__name-text" data-id="${product.id}">${product.linkText}</a>
                     </div>
                     <div class="store-homepage-product__price">
-                        <p class="store-homepage-product__price-list">${product.price}</p>
+                        <p class="store-homepage-product__price-list">${(product.price * rate).toFixed(2)}</p>
                     </div>
                     <div class="store-homepage-product__button">
                         <a href="#" class="store-homepage__button-cart" data-id="#">Buy</a>
@@ -57,4 +57,17 @@
         }
         productsContainer.addEventListener('click', productInfoClick);
     }
+
+    let currencies;
+    async function changeCurrency() {
+        if (!currencies) {
+            const response = await fetch('https://api.exchangerate-api.com/v4/latest/USD');
+            currencies = await response.json();
+        }
+        const selectedCurrency = document.querySelector('.products__currency').value;
+        const rate = currencies.rates[selectedCurrency];
+        renderProducts(products, rate);
+    }
+
+    document.querySelector('.products__currency').addEventListener('change', changeCurrency);
 })();

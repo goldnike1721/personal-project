@@ -417,7 +417,7 @@
         margin: 0 auto;
 
         .products-container {
-            padding: 100px 15px 150px 40px;
+            padding: 100px 15px 150px 15px;
 
             .product-general-container {
                 .products-contents__carousel-image {

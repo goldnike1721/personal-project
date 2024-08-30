@@ -202,3 +202,10 @@
         }
     }
 }
+
+@media (min-width: 1200px) {
+    .why-us__block-general {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+}
