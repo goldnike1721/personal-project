@@ -18,9 +18,9 @@
                 }
 
                 .footer-information__description-text {
-                    font-family: 'Lato', sans-serif;
+                    font-family: var(--font-family-text);
                     font-size: 14px;
-                    color: #a59489;
+                    color: var(--footer-description-text);
                     font-weight: 400;
                     line-height: 1.5;
                     margin: 0 auto;
@@ -45,12 +45,12 @@
 
                         .footer-social__link-image svg {
                             border-radius: 5px;
-                            fill: #ebbaa9;
+                            fill: var(--footer-description-link-image-social-svg);
                             transition: fill .3s ease;
                         }
 
                         .footer-social__link-image svg:hover {
-                            fill: #e09980;
+                            fill: var(--footer-description-link-image-social-svg-hover);
                         }
                     }
                 }
@@ -61,15 +61,15 @@
 
                 .footer-navigation__name {
                     .footer-navigation__name-title {
-                        font-family: 'Lexend', sans-serif;
+                        font-family: var(--font-family-title);
                         font-size: 22px;
                         font-weight: 600;
-                        color: #ebbaa9;
+                        color: var(--footer-navigation-title-text);
                         margin: 0 auto;
                         padding-bottom: 10px;
 
                         .footer-navigation__name-title-span {
-                            color: #a59489;
+                            color: var(--footer-navigation-title-text-hover);
                         }
                     }
                 }
@@ -83,9 +83,9 @@
 
                         .footer-item__menu {
                             display: block;
-                            font-family: 'Lato', sans-serif;
+                            font-family: var(--font-family-text);
                             font-size: 17px;
-                            color: #a59489;
+                            color: var(--footer-navigation-item-menu);
                             font-weight: 600;
                             margin: 0 auto;
                             margin: 10px 0;
@@ -103,12 +103,12 @@
                             bottom: 0;
                             width: 0;
                             height: 2px;
-                            background-color: #3d3431;
+                            background-color: var(--footer-navigation-item-menu-line-hover);
                             transition: width .7s ease;
                         }
 
                         .footer-item__menu:hover {
-                            color: #3d3431;
+                            color: var(--footer-navigation-item-menu-hover);
                         }
 
                         .footer-item__menu:hover::after {
@@ -124,14 +124,14 @@
 
                 .footer-contacts__name {
                     .footer-contacts__name-title {
-                        font-family: 'Lexend', sans-serif;
+                        font-family: var(--font-family-title);
                         font-size: 22px;
                         font-weight: 600;
-                        color: #ebbaa9;
+                        color: var(--footer-contacts-title-text);
                         margin: 0 auto;
 
                         .footer-contacts__name-title-span {
-                            color: #a59489;
+                            color: var(--footer-contacts-title-text-span);
                         }
                     }
                 }
@@ -148,9 +148,9 @@
 
                             .footer-list__text {
                                 display: block;
-                                font-family: 'Lato', sans-serif;
+                                font-family: var(--font-family-text);
                                 font-size: 15px;
-                                color: #936f62;
+                                color: var(--footer-contacts-list-text);
                                 font-weight: 600;
                                 margin: 0 auto;
                                 text-decoration: none;
@@ -158,9 +158,9 @@
 
                             .footer-item__link {
                                 display: block;
-                                font-family: 'Lato', sans-serif;
+                                font-family: var(--font-family-text);
                                 font-size: 15px;
-                                color: #a59489;
+                                color: var(--footer-contacts-item-link);
                                 font-weight: 600;
                                 margin: 0 auto;
                                 text-decoration: none;
@@ -177,12 +177,12 @@
                                 bottom: 0;
                                 width: 0;
                                 height: 2px;
-                                background-color: #936f62;
+                                background-color: var(--footer-contacts-item-link-line-hover);
                                 transition: width .7s ease;
                             }
 
                             .footer-item__link:hover {
-                                color: #936f62;
+                                color: var(--footer-contacts-item-link-hover);
                             }
 
                             .footer-item__link:hover::after {
@@ -198,16 +198,16 @@
 
                 .footer-subscribe__title {
                     .footer-subscribe__title-text {
-                        font-family: 'Lexend', sans-serif;
+                        font-family: var(--font-family-title);
                         font-size: 22px;
                         font-weight: 600;
                         line-height: 1.5;
-                        color: #936f62;
+                        color: var(--footer-subscribe-title-text);
                         margin: 0 auto;
                         max-width: 340px;
 
                         .footer-subscribe__title-text-span {
-                            color: #ebbaa9;
+                            color: var(--footer-subscribe-title-text-span);
                         }
                     }
                 }
@@ -230,22 +230,22 @@
                 }
 
                 .footer-subscribe__form input::placeholder {
-                    color: #a59489;
+                    color: var(--footer-subscribe-form-input-placeholder);
                 }
 
                 .footer-form__block {
-                    font-family: 'Lato', sans-serif;
+                    font-family: var(--font-family-text);
                     font-size: 15px;
                     font-weight: 600;
-                    background-color: #f4e9e0;
+                    background-color: var(--footer-subscribe-form-background);
                 }
 
                 .footer-button-block {
-                    font-family: 'Lato', sans-serif;
+                    font-family: var(--font-family-text);
                     font-size: 15px;
                     font-weight: 600;
-                    background-color: #ebbaa9;
-                    color: #ffffff;
+                    background-color: var(--footer-subscribe-button-subscribe-background);
+                    color: var(--footer-subscribe-button-subscribe-text);
                     box-sizing: border-box;
                     transition: background-color .5s ease, color .5s ease;
                     cursor: pointer;
@@ -253,7 +253,7 @@
                 }
 
                 .footer-button-block:hover {
-                    background-color: #333333;
+                    background-color: var(--footer-subscribe-button-subscribe-background-hover);
                 }
             }
         }
@@ -262,15 +262,15 @@
     .footer__line-title {
         border: none;
         height: 1px;
-        background-color: #333333;
+        background-color: var(--footer-line-title-background);
         margin: 0 24px;
     }
 
     .footer-container__bottom {
         .footer-bottom__text-top {
-            font-family: 'Lato', sans-serif;
+            font-family: var(--font-family-text);
             font-size: 14px;
-            color: #a59489;
+            color: var(--footer-container__bottom-text-top);
             font-weight: 600;
             line-height: 1.5;
             margin: 0 auto;
@@ -279,9 +279,9 @@
         }
 
         .footer-bottom__text-bottom {
-            font-family: 'Lato', sans-serif;
+            font-family: var(--font-family-text);
             font-size: 14px;
-            color: #a59489;
+            color: var(--footer-container__bottom-text-bottom);
             font-weight: 600;
             line-height: 1.5;
             margin: 0 auto;

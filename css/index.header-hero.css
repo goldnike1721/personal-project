@@ -27,32 +27,32 @@
 
             .header__hero-content {
                 .header__italic-paragraph {
-                    font-family: "Niconne", cursive;
+                    font-family: var(--font-family-coursive);
                     font-style: italic;
                     font-size: 22px;
-                    color: #ebbaa9;
+                    color: var(--header-hero-text-coursive);
                     font-weight: 400;
                     line-height: 1.5;
                     margin: 0;
                 }
 
                 .header__title-bold {
-                    font-family: 'Lexend', sans-serif;
+                    font-family: var(--font-family-title);
                     font-size: 35px;
-                    color: #333333;
+                    color: var(--header-hero-text-title);
                     font-weight: 700;
                     padding-top: 15px;
                     margin: 0;
 
                     .header__title-bold-span {
-                        color: #ebbaa9;
+                        color: var(--header-hero-text-title-span);
                     }
                 }
 
                 .header__placeholder-paragraph {
-                    font-family: 'Lato', sans-serif;
+                    font-family: var(--font-family-text);
                     font-size: 20px;
-                    color: #99887d;
+                    color: var(--header-hero-text-paragraph);
                     font-weight: 400;
                     line-height: 1.5;
                     padding: 35px 0 40px 0;
@@ -67,20 +67,20 @@
                     margin: 0;
 
                     .header__button-shop {
-                        height: 58px;
                         display: flex;
                         align-items: center;
                         justify-content: center;
+                        height: 58px;
                         border-radius: 5px;
                         padding: 0 35px;
-                        font-family: 'Lato', sans-serif;
+                        font-family: var(--font-family-text);
                         font-size: 16px;
                         font-weight: 570;
                         box-sizing: border-box;
                         transition: background-color .5s ease, color .5s ease;
                         cursor: pointer;
-                        background-color: #ebbaa9;
-                        color: #ffffff;
+                        background-color: var(--header-hero-button-darkned-background);
+                        color: var(--header-hero-button-darkned-text);
                         text-decoration: none;
                     }
 
@@ -91,7 +91,7 @@
                     }
 
                     .header__button-shop:hover {
-                        background-color: #333333;
+                        background-color: var(--header-hero-button-darkned-hover);
                     }
                 }
 
@@ -103,21 +103,21 @@
                     margin-bottom: 30px;
 
                     .header__button-about {
-                        height: 58px;
                         display: flex;
                         align-items: center;
                         justify-content: center;
+                        height: 58px;
                         border-radius: 5px;
                         padding: 0 25px;
-                        font-family: 'Lato', sans-serif;
+                        font-family: var(--font-family-text);
                         font-size: 16px;
                         font-weight: 570;
                         box-sizing: border-box;
                         transition: background-color .5s ease, color .5s ease;
                         cursor: pointer;
                         background-color: transparent;
-                        color: #333333;
-                        border: 3px solid #333333;
+                        color: var(--header-hero-button-transparent-text);
+                        border: 3px solid var(--header-hero-button-transparent-border);
                         text-decoration: none;
                     }
 
@@ -128,8 +128,8 @@
                     }
 
                     .header__button-about:hover {
-                        background-color: #333333;
-                        color: #ffffff;
+                        background-color: var(--header-hero-button-transparent-background);
+                        color: var(--header-hero-button-transparent-text-hover);
                     }
                 }
             }

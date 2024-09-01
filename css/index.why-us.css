@@ -6,10 +6,10 @@
 
     .why-us__background {
         .why-us__top-image {
-            height: 130px;
             overflow: hidden;
             object-fit: cover;
             transform-origin: center center;
+            height: 130px;
             margin: 0;
             padding: 0;
         }
@@ -39,35 +39,35 @@
         }
 
         .why-us__text-italic {
-            font-family: "Niconne", cursive;
+            font-family: var(--font-family-coursive);
             font-style: italic;
             font-size: 22px;
-            color: #b8a4c0;
+            color: var(--why-us-text-italic);
             font-weight: 400;
             line-height: 1.5;
             padding-top: 50px;
         }
 
         .why-us__title-text {
-            font-family: 'Lexend', sans-serif;
+            font-family: var(--font-family-title);
             font-size: 34px;
-            color: #794b8b;
+            color: var(--why-us-title-text);
             padding-top: 35px;
         }
 
         .why-us__recomendation-text {
-            font-family: 'Lato', sans-serif;
+            font-family: var(--font-family-text);
             font-size: 20px;
-            color: #827189;
+            color: var(--why-us-recomendation-text);
             font-weight: 400;
             line-height: 1.5;
             padding-top: 35px;
         }
 
         .why-us__description-text {
-            font-family: 'Lato', sans-serif;
+            font-family: var(--font-family-text);
             font-size: 17px;
-            color: #93849b;
+            color: var(--why-us-description-text);
             font-weight: 400;
             line-height: 1.5;
             padding: 35px 0 50px 0;
@@ -84,7 +84,7 @@
 
 
             .why-us__animation {
-                color: #987aa4;
+                color: var(--why-us-animation);
                 position: relative;
                 display: inline-block;
                 width: 26px;
@@ -99,7 +99,7 @@
                     width: 50px;
                     height: 50px;
                     border-radius: 50%;
-                    background-color: #8062bc1c;
+                    background-color: var(--why-us-animation-background);
                     transform: translate(-50%, -50%);
                     z-index: -1;
                 }
@@ -107,9 +107,9 @@
 
             .why-us__animation-text {
                 text-align: center;
-                font-family: 'Lato', sans-serif;
+                font-family: var(--font-family-text);
                 font-size: 17px;
-                color: #987aa4;
+                color: var(--why-us-animation-text);
                 font-weight: 400;
                 line-height: 1.5;
                 padding-top: 35px;
@@ -120,10 +120,10 @@
 
     .why-us__background {
         .why-us__bottom-image {
-            height: 130px;
             overflow: hidden;
             object-fit: cover;
             transform-origin: center center;
+            height: 130px;
             margin: 0;
             padding: 0;
         }

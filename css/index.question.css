@@ -9,18 +9,18 @@
 
         .question-content {
             .question__text-italic {
-                font-family: "Niconne", cursive;
+                font-family: var(--font-family-coursive);
                 font-style: italic;
                 font-size: 22px;
-                color: #ebbaa9;
+                color: var(--question-text-italic);
                 font-weight: 400;
                 line-height: 1.5;
             }
 
             .question__title-text {
-                font-family: 'Lexend', sans-serif;
+                font-family: var(--font-family-title);
                 font-size: 34px;
-                color: #333333;
+                color: var(--question-title-text);
                 padding: 15px 0 20px 0;
                 font-weight: 700;
                 line-height: 1.5;
@@ -34,9 +34,9 @@
             }
 
             .question__description-text {
-                font-family: 'Lato', sans-serif;
+                font-family: var(--font-family-text);
                 font-size: 20px;
-                color: #a59489;
+                color: var(--question-description-text);
                 font-weight: 400;
                 line-height: 1.5;
                 padding: 20px 0 20px 0;
@@ -47,9 +47,9 @@
             width: 100%;
 
             .accordion-button {
-                font-family: 'Lexend', sans-serif;
+                font-family: var(--font-family-title);
                 font-size: 22px;
-                color: #a59489;
+                color: var(--question-accordion-button);
                 font-weight: 200;
                 line-height: 1.5;
                 padding: 20px 0 20px 10px;
@@ -57,9 +57,9 @@
             }
 
             .accordion-body {
-                font-family: 'Lato', sans-serif;
+                font-family: var(--font-family-text);
                 font-size: 17px;
-                color: #b4a79e;
+                color: var(--question-accordion-body);
                 font-weight: 400;
                 line-height: 1.5;
             }
@@ -91,7 +91,7 @@
                 margin-left: 20px;
                 font-size: 1.5rem;
                 transition: transform .7s ease;
-                color: #000000;
+                color: var(--question-accordion-collapsed-after);
             }
 
             .accordion-button:not(.collapsed)::after {
@@ -100,14 +100,19 @@
                 font-size: 1.5rem;
                 transform: scale(1.5);
                 transition: transform .7s ease;
-                color: #000000;
+                color: var(--question-accordion-callapsed-nat-after);
             }
 
-            .accordion-button:focus,
+            .accordion-button:focus {
+                outline: none !important;
+                background-color: var(--question-accordion-button-focus-background) !important;
+                box-shadow: 0 0 0 2px var(--question-accordion-button-focus-box-shadow) !important;
+            }
+
             .accordion-button:active {
                 outline: none !important;
-                background-color: #fbf0e5 !important;
-                box-shadow: 0 0 0 2px #feece1 !important;
+                background-color: var(--question-accordion-button-active-background) !important;
+                box-shadow: 0 0 0 2px var(--question-accordion-button-active-box-shadow) !important;
             }
         }
 

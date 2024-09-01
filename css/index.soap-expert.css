@@ -5,7 +5,7 @@
     padding: 0;
 
     .soap-expert__container {
-        background-color: #fbf0e5;
+        background-color: var(--soap-expert-container-background);
 
         .soap-expert__background {
             .soap-expert__background-image {
@@ -52,9 +52,9 @@
                     text-align: center;
 
                     .soap-expert__title-text {
-                        font-family: 'Lexend', sans-serif;
+                        font-family: var(--font-family-title);
                         font-size: 22px;
-                        color: #936f62;
+                        color: var(--soap-expert-title-text);
                         margin: 0 auto;
                         padding-top: 20px;
                         font-weight: 500;
@@ -67,9 +67,9 @@
                     text-align: center;
 
                     .soap-expert__text-paragraph {
-                        font-family: 'Lato', sans-serif;
+                        font-family: var(--font-family-text);
                         font-size: 17px;
-                        color: #a59489;
+                        color: var(--soap-expert-paragraph-text);
                         font-weight: 400;
                         line-height: 1.5;
                         margin: 0 auto;

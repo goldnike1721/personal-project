@@ -5,7 +5,7 @@ body.modal-open {
 
 .modal {
     padding: 0 24px;
-    background-color: #000000c2;
+    background-color: var(--modal-top-choice-background);
 
     .modal-dialog {
         display: flex;

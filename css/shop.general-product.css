@@ -13,7 +13,7 @@
 
             .store-homepage__image:hover {
                 transform: scale(0.97);
-                box-shadow: 0 0 0 3px #0d0b0b;
+                box-shadow: 0 0 0 3px var(--page-general-product-image-box-shadow-hover);
             }
         }
 
@@ -25,23 +25,23 @@
 
             .store-homepage-product__name-text {
                 text-decoration: none;
-                font-family: 'Lato', sans-serif;
+                font-family: var(--font-family-text);
                 font-size: 18px;
-                color: #868686;
+                color: var(--page-general-product-name-text);
                 font-weight: 560;
                 line-height: 1.5;
                 transition: color .5s ease;
             }
 
             .store-homepage-product__name-text:hover {
-                color: #333333;
+                color: var(--page-general-product-name-text-hover);
             }
 
 
             .store-homepage-product__price-list {
-                font-family: 'Lato', sans-serif;
+                font-family: var(--font-family-text);
                 font-size: 20px;
-                color: #a59489;
+                color: var(--page-general-product-price-list);
                 font-weight: 560;
                 line-height: 1.5;
                 padding: 15px 0;
@@ -57,20 +57,20 @@
             padding: 0 20px;
 
             .store-homepage__button-cart {
-                height: 50px;
                 display: flex;
                 align-items: center;
                 justify-content: center;
+                height: 50px;
                 border-radius: 5px;
                 padding: 0 35px;
-                font-family: 'Lato', sans-serif;
+                font-family: var(--font-family-text);
                 font-size: 15px;
                 font-weight: 570;
                 box-sizing: border-box;
                 transition: background-color .5s ease, color .5s ease;
                 cursor: pointer;
-                background-color: #a59489;
-                color: #ffffff;
+                background-color: var(--page-general-button-cart-background);
+                color: var(--page-general-button-cart-text);
                 text-decoration: none;
             }
 
@@ -81,7 +81,7 @@
             }
 
             .store-homepage__button-cart:hover {
-                background-color: #ebbaa9;
+                background-color: var(--page-general-button-cart-background-hover);
             }
         }
     }

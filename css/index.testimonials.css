@@ -15,24 +15,24 @@
 
     .testimonials-container__block-top {
         .testimonials__text-italic {
-            font-family: "Niconne", cursive;
+            font-family: var(--font-family-coursive);
             font-style: italic;
             font-size: 22px;
-            color: #ebbaa9;
+            color: var(--testimonials-text-italic);
             font-weight: 400;
             line-height: 1.5;
         }
 
         .testimonials__title-text {
-            font-family: 'Lexend', sans-serif;
+            font-family: var(--font-family-title);
             font-size: 34px;
-            color: #333333;
+            color: var(--testimonials-title-text);
             padding: 20px 0 30px 0;
             font-weight: 700;
             line-height: 1.5;
 
             .testimonials__title-text-span {
-                color: #ebbaa9;
+                color: var(--testimonials-title-text-span);
             }
         }
 
@@ -49,9 +49,9 @@
         }
 
         .testimonials-block__descriotion-text {
-            font-family: 'Lato', sans-serif;
+            font-family: var(--font-family-text);
             font-size: 20px;
-            color: #a59489;
+            color: var(--testimonials-description-text);
             font-weight: 400;
             line-height: 1.5;
             padding-top: 20px;
@@ -63,33 +63,33 @@
 
         .testimonials-block__information {
             margin: 0 15px;
-            background-color: #ffffff;
-            box-shadow: 0 0 0 2px #fbf0e5;
+            background-color: var(--testimonials-block-information-background);
+            box-shadow: 0 0 0 2px var(--testimonials-block-information-box-shadow);
 
             .testimonials-information__title-text {
-                font-family: 'Lexend', sans-serif;
+                font-family: var(--font-family-title);
                 font-size: 22px;
-                color: #ebbaa9;
+                color: var(--testimonials-block-information-title-text);
                 font-weight: 600;
                 line-height: 1.5;
                 padding: 35px 35px 25px 35px;
             }
 
             .testimonials-information__quote-text {
-                font-family: 'Lato', sans-serif;
+                font-family: var(--font-family-text);
                 font-style: italic;
                 font-size: 17px;
-                color: #b4a79e;
+                color: var(--testimonials-block-information-quote-text);
                 font-weight: 400;
                 line-height: 1.5;
                 padding: 0 35px;
             }
 
             .testimonials-information__date-text {
-                font-family: 'Lato', sans-serif;
+                font-family: var(--font-family-text);
                 font-style: italic;
                 font-size: 14px;
-                color: #a59489;
+                color: var(--testimonials-block-information-date-text);
                 font-weight: 400;
                 line-height: 1.5;
                 padding: 35px 35px 30px 45px;

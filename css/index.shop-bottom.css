@@ -7,20 +7,20 @@
         padding: 0 24px 30px 24px;
 
         .shop-button__see-products {
-            height: 45px;
             display: flex;
             align-items: center;
             justify-content: center;
+            height: 45px;
             border-radius: 7px;
             padding: 0 15px;
-            font-family: 'Lato', sans-serif;
+            font-family: var(--font-family-text);
             font-size: 15px;
             font-weight: 570;
             box-sizing: border-box;
             transition: background-color .5s ease, color .5s ease;
             cursor: pointer;
-            background-color: #ebbaa9;
-            color: #ffffff;
+            background-color: var(--shop-bottom-button-see-product-background);
+            color: var(--shop-bottom-button-see-product-text);
             text-decoration: none;
         }
 
@@ -31,7 +31,7 @@
         }
 
         .shop-button__see-products:hover {
-            background-color: #333333;
+            background-color: var(--shop-bottom-button-see-product-background-hover);
         }
     }
 }

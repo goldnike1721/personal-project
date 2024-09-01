@@ -6,23 +6,23 @@
         align-items: center;
         justify-content: center;
         flex-direction: column;
-        background-color: #fbf0e5;
+        background-color: var(--soap-stories-container-background);
         border-radius: 10px;
 
         .soap-stories__text-italic {
-            font-family: "Niconne", cursive;
+            font-family: var(--font-family-coursive);
             font-style: italic;
             font-size: 22px;
-            color: #ebbaa9;
+            color: var(--soap-stories-text-italic);
             font-weight: 400;
             line-height: 1.5;
             padding: 60px 25px 30px 25px;
         }
 
         .soap-stories__text-text {
-            font-family: 'Lexend', sans-serif;
+            font-family: var(--font-family-title);
             font-size: 34px;
-            color: #ebbaa9;
+            color: var(--soap-stories-title-text);
             text-align: center;
             padding: 0 25px;
             font-weight: 700;
@@ -38,11 +38,11 @@
 
         .sopa-stories__text-description {
             text-align: center;
-            font-family: 'Lato', sans-serif;
+            font-family: var(--font-family-text);
             font-size: 20px;
             font-weight: 400;
             line-height: 1.5;
-            color: #a59489;
+            color: var(--soap-stories-text-description);
             padding: 0 25px;
         }
 
@@ -52,22 +52,22 @@
             padding: 30px 25px 70px 25px;
 
             .soap__button {
-                height: 70px;
                 display: flex;
                 align-items: center;
                 justify-content: center;
                 text-align: center;
+                height: 70px;
                 border-radius: 7px;
                 padding: 0 25px;
-                font-family: 'Lato', sans-serif;
+                font-family: var(--font-family-text);
                 font-size: 16.5px;
                 font-weight: 570;
                 line-height: 1.5;
                 box-sizing: border-box;
                 transition: background-color .5s ease, color .5s ease;
                 cursor: pointer;
-                background-color: #ebbaa9;
-                color: #ffffff;
+                background-color: var(--soap-stories-button-background);
+                color: var(--soap-stories-button-text);
                 text-decoration: none;
             }
 
@@ -78,7 +78,7 @@
             }
 
             .soap__button:hover {
-                background-color: #333333;
+                background-color: var(--soap-stories-button-background-hover);
             }
         }
     }

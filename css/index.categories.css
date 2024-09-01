@@ -10,24 +10,24 @@
     left: 0;
 
     .categories__text-italic {
-        font-family: "Niconne", cursive;
+        font-family: var(--font-family-coursive);
         font-style: italic;
         font-size: 22px;
-        color: #ebbaa9;
+        color: var(--categories-text-italic);
         font-weight: 400;
         line-height: 1.5;
     }
 
     .categories__title-text {
-        font-family: 'Lexend', sans-serif;
+        font-family: var(--font-family-title);
         font-size: 34px;
-        color: #333333;
+        color: var(--categories-title-text);
         padding: 30px 0;
         font-weight: 700;
         line-height: 1.5;
 
         .categories__title-text-span {
-            color: #ebbaa9;
+            color: var(--categories-title-text-span);
         }
     }
 
@@ -39,9 +39,9 @@
     }
 
     .categories__heading-text {
-        font-family: 'Lato', sans-serif;
+        font-family: var(--font-family-text);
         font-size: 20px;
-        color: #a59489;
+        color: var(--categories-heading-text);
         padding: 25px 0;
         font-weight: 400;
         line-height: 1.5;
@@ -49,9 +49,9 @@
     }
 
     .categories__paragraph-text {
-        font-family: 'Lato', sans-serif;
+        font-family: var(--font-family-text);
         font-size: 17px;
-        color: #b4a79e;
+        color: var(--categories-paragraph-text);
         padding-bottom: 30px;
         font-weight: 400;
         line-height: 1.5;
@@ -64,20 +64,20 @@
         margin-bottom: 30px;
 
         .categories__button-all {
-            height: 45px;
             display: flex;
             align-items: center;
             justify-content: center;
+            height: 45px;
             border-radius: 7px;
             padding: 0 10px;
-            font-family: 'Lato', sans-serif;
+            font-family: var(--font-family-text);
             font-size: 14px;
             font-weight: 570;
             box-sizing: border-box;
             transition: background-color .5s ease, color .5s ease;
             cursor: pointer;
-            background-color: #ebbaa9;
-            color: #ffffff;
+            background-color: var(--categories-button-products-background);
+            color: var(--categories-button-products-text);
             text-decoration: none;
         }
 
@@ -88,7 +88,7 @@
         }
 
         .categories__button-all:hover {
-            background-color: #333333;
+            background-color: var(--categories-button-products-background-hover);
         }
     }
 }
@@ -120,9 +120,9 @@
         }
 
         .categories-product__name-text {
-            font-family: 'Lexend', sans-serif;
+            font-family: var(--font-family-title);
             font-size: 22px;
-            color: #333333;
+            color: var(--categories-products-name-text);
             padding-top: 20px;
         }
 
@@ -132,9 +132,9 @@
             left: 50%;
 
             .categories-product__description-text {
-                font-family: 'Lato', sans-serif;
+                font-family: var(--font-family-text);
                 font-size: 17px;
-                color: #b4a79e;
+                color: var(--categories-products-description-text);
                 padding-top: 20px;
                 line-height: 1.5;
             }
@@ -146,20 +146,20 @@
             margin-top: 30px;
 
             .categories__button-shop {
-                height: 50px;
                 display: flex;
                 align-items: center;
                 justify-content: center;
+                height: 50px;
                 border-radius: 7px;
                 padding: 0 40px;
-                font-family: 'Lato', sans-serif;
+                font-family: var(--font-family-text);
                 font-size: 15px;
                 font-weight: 570;
                 box-sizing: border-box;
                 transition: background-color .5s ease, color .5s ease;
                 cursor: pointer;
-                background-color: #ebbaa9;
-                color: #ffffff;
+                background-color: var(--categories-button-shop-background);
+                color: var(--categories-button-shop-text);
                 text-decoration: none;
             }
 
@@ -170,7 +170,7 @@
             }
 
             .categories__button-shop:hover {
-                background-color: #333333;
+                background-color: var(--categories-button-shop-background-hover);
 
             }
         }

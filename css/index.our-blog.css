@@ -10,24 +10,24 @@
 
     .our-blog__content-name {
         .our-blog__text-italic {
-            font-family: "Niconne", cursive;
+            font-family: var(--font-family-coursive);
             font-style: italic;
             font-size: 22px;
-            color: #ebbaa9;
+            color: var(--our-blog-text-italic);
             font-weight: 400;
             line-height: 1.5;
         }
 
         .our-blog__title-text {
-            font-family: 'Lexend', sans-serif;
+            font-family: var(--font-family-title);
             font-size: 34px;
-            color: #333333;
+            color: var(--our-blog-title-text);
             padding-top: 30px;
             font-weight: 700;
             line-height: 1.5;
 
             .our-blog__title-text-span {
-                color: #ebbaa9;
+                color: var(--our-blog-title-text-span);
             }
         }
     }
@@ -46,16 +46,16 @@
         }
 
         .our-blog__title-description {
-            font-family: 'Lexend', sans-serif;
+            font-family: var(--font-family-title);
             font-size: 22px;
-            color: #333333;
+            color: var(--our-blog-description-text);
             padding: 25px 10px 0 10px;
         }
 
         .our-blog__text-paragraph {
-            font-family: 'Lato', sans-serif;
+            font-family: var(--font-family-text);
             font-size: 17px;
-            color: #a59489;
+            color: var(--our-blog-text-paragraph);
             font-weight: 400;
             line-height: 1.5;
             padding: 25px 10px 0 10px;
@@ -67,20 +67,20 @@
             padding: 20px 10px 0 10px;
 
             .our-blog__button {
-                height: 40px;
                 display: flex;
                 align-items: center;
                 justify-content: center;
+                height: 40px;
                 border-radius: 7px;
                 padding: 0 10px;
-                font-family: 'Lato', sans-serif;
+                font-family: var(--font-family-text);
                 font-size: 14px;
                 font-weight: 570;
                 box-sizing: border-box;
                 transition: background-color .5s ease, color .5s ease;
                 cursor: pointer;
-                background-color: #794b8b;
-                color: #ffffff;
+                background-color: var(--our-blog-button-read-more-background);
+                color: var(--our-blog-button-read-more-text);
                 text-decoration: none;
             }
 
@@ -91,7 +91,7 @@
             }
 
             .our-blog__button:hover {
-                background-color: #333333;
+                background-color: var(--our-blog-button-read-more-background-hover);
             }
         }
     }

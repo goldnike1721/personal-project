@@ -1,11 +1,6 @@
-/* Lato */
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
-/* Niconne */
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Niconne&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
-/* Lexend */
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lexend:wght@100..900&family=Niconne&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
-
-
 
 *,
 *::after,
@@ -22,6 +17,7 @@
     --header-nav-background-color-537px: linear-gradient(to right, #fdf0e3, #feede0, #feecdf, #fdeadf);
     --header-nav-background-color-768px: linear-gradient(to right, #feeee2, #feede0, #feece1, #feece1, #fdeadd);
     --header-nav-background-color-992px: linear-gradient(to right, #feeee3, #feecdf, #feeee2, #feebde, #feece1, #feecdf, #feece1, #fdebe0, #fce9df);
+    --header-nav-background-color-1200px: linear-gradient(to right, #ffefe5, #feeee3, #feede0, #feecdf, #feecdf, #feebe0, #feebe0, #fbe7dc, #fae7da);
     --header-nav-element-list: #936f62;
     --header-nav-element-link: #936f62;
     --header-nav-element-link-after: #3d3431;
@@ -37,14 +33,228 @@
     --header-nav-navicon-after: #000000;
     --header-nav-navicon-before: #000000;
     --header-nav-background-burger: #fef1e5;
-    --header-nav --header-nav --header-nav --header-nav;
+    --header-nav-social-link-background-992px: #fdebe1;
+    --header-nav-social-link-background-svg-992px: #fdebe1;
+    --header-nav-social-link-background-1200px: #fbe8dd;
+    --header-nav-social-link-background-svg-1200px: #fbe8dd;
 
+    --header-hero-text-coursive: #ebbaa9;
+    --header-hero-text-title: #333333;
+    --header-hero-text-title-span: #ebbaa9;
+    --header-hero-text-paragraph: #99887d;
+    --header-hero-button-darkned-background: #ebbaa9;
+    --header-hero-button-darkned-text: #ffffff;
+    --header-hero-button-darkned-hover: #333333;
+    --header-hero-button-transparent-border: #333333;
+    --header-hero-button-transparent-text: #333333;
+    --header-hero-button-transparent-background: #333333;
+    --header-hero-button-transparent-text-hover: #ffffff;
 
+    --about-us-text-italic: #ebbaa9;
+    --about-us-text-title: #333333;
+    --baout-us-text-title-span: #ebbaa9;
+    --about-us-heading-text: #a59489;
+    --about-us-image-svg: #ebbaa9;
+    --about-us-text-content: #a59489;
+    --about-us-caption-text: #b4a79e;
+    --about-us-button-background: #ebbaa9;
+    --about-us-button-text: #ffffff;
+    --about-us-button-hover: #333333;
 
+    --top-choice-text-italic: #879991;
+    --top-choice-text-title: #3d7d72;
+    --top-choice-heading-text: #71897d;
+    --top-choice-paragraph-text: #849b91;
 
-    --font-family-coursive: 'Lato', sans-serif;
+    --categories-text-italic: #ebbaa9;
+    --categories-title-text: #333333;
+    --categories-title-text-span: #ebbaa9;
+    --categories-heading-text: #a59489;
+    --categories-paragraph-text: #b4a79e;
+    --categories-button-products-background: #ebbaa9;
+    --categories-button-products-text: #ffffff;
+    --categories-button-products-background-hover: #333333;
+    --categories-products-name-text: #333333;
+    --categories-products-description-text: #b4a79e;
+    --categories-button-shop-background: #ebbaa9;
+    --categories-button-shop-text: #ffffff;
+    --categories-button-shop-background-hover: #333333;
+
+    --discount-background-container: #fbf0e5;
+    --discount-title-number: #ebbaa9;
+    --discount-paragraph-text: #936f629e;
+    --discount-title-text: #333333;
+    --discount-description-paragraph: #868686;
+    --discount-button-shop-background: #c492c0;
+    --discount-button-shop-text: #ffffff;
+    --discount-button-shop-background-hover: #333333;
+
+    --why-us-text-italic: #b8a4c0;
+    --why-us-title-text: #794b8b;
+    --why-us-recomendation-text: #827189;
+    --why-us-description-text: #93849b;
+    --why-us-animation: #987aa4;
+    --why-us-animation-background: #8062bc1c;
+    --why-us-animation-text: #987aa4;
+
+    --shop-top-text-italic: #ebbaa9;
+    --shop-top-title-head: #333333;
+    --shop-top-title-head-span: #ebbaa9;
+    --shop-top-description-paragraph: #a59489;
+    --shop-top-currency-text-title: #a59489;
+    --shop-top-currency-border: #dddddd;
+    --shop-top-currency-background: #fbf0e5;
+    --shop-top-currency-text: #333333;
+    --shop-top-currency-background-hover: #fbf0e5;
+    --shop-top-currency-box-shadow-focus: #555555;
+    --shop-top-currency-animation-color: #555555;
+
+    --shop-product-box-shadow-hover: #0d0b0b;
+    --shop-product-name-text: #868686;
+    --shop-product-name-text-hover: #333333;
+    --shop-product-price-text: #a59489;
+    --shop-button-cart-background: #ebbaa9;
+    --shop-button-cart-text: #ffffff;
+    --shop-button-cart-background-hover: #333333;
+
+    --shop-bottom-button-see-product-background: #ebbaa9;
+    --shop-bottom-button-see-product-text: #ffffff;
+    --shop-bottom-button-see-product-background-hover: #333333;
+
+    --soap-stories-container-background: #fbf0e5;
+    --soap-stories-text-italic: #ebbaa9;
+    --soap-stories-title-text: #ebbaa9;
+    --soap-stories-text-description: #a59489;
+    --soap-stories-button-background: #ebbaa9;
+    --soap-stories-button-text: #ffffff;
+    --soap-stories-button-background-hover: #333333;
+
+    --bath-routine-container-background: #f7ccd9;
+    --bath-routine-text-italic: #c08293;
+    --bath-routine-title-text: #d6718e;
+    --bath-routine-description-text: #99607a;
+    --bath-routine-quote-text: #b27390;
+    --bath-routine-author-text: #99607a;
+
+    --testimonials-text-italic: #ebbaa9;
+    --testimonials-title-text: #333333;
+    --testimonials-title-text-span: #ebbaa9;
+    --testimonials-description-text: #a59489;
+    --testimonials-block-information-background: #ffffff;
+    --testimonials-block-information-box-shadow: #fbf0e5;
+    --testimonials-block-information-title-text: #ebbaa9;
+    --testimonials-block-information-quote-text: #b4a79e;
+    --testimonials-block-information-date-text: #a59489;
+
+    --our-blog-text-italic: #ebbaa9;
+    --our-blog-title-text: #333333;
+    --our-blog-title-text-span: #ebbaa9;
+    --our-blog-description-text: #333333;
+    --our-blog-text-paragraph: #a59489;
+    --our-blog-button-read-more-background: #794b8b;
+    --our-blog-button-read-more-text: #ffffff;
+    --our-blog-button-read-more-background-hover: #333333;
+
+    --question-text-italic: #ebbaa9;
+    --question-title-text: #333333;
+    --question-description-text: #a59489;
+    --question-accordion-button: #a59489;
+    --question-accordion-body: #b4a79e;
+    --question-accordion-collapsed-after: #000000;
+    --question-accordion-callapsed-nat-after: #000000;
+    --question-accordion-button-focus-background: #fbf0e5;
+    --question-accordion-button-focus-box-shadow: #feece1;
+    --question-accordion-button-active-background: #fbf0e5;
+    --question-accordion-button-active-box-shadow: #feece1;
+
+    --soap-expert-container-background: #fbf0e5;
+    --soap-expert-title-text: #936f62;
+    --soap-expert-paragraph-text: #a59489;
+
+    --footer-description-text: #a59489;
+    --footer-description-link-image-social-svg: #ebbaa9;
+    --footer-description-link-image-social-svg-hover: #e09980;
+    --footer-navigation-title-text: #ebbaa9;
+    --footer-navigation-title-text-hover: #a59489;
+    --footer-navigation-item-menu: #a59489;
+    --footer-navigation-item-menu-line-hover: #3d3431;
+    --footer-navigation-item-menu-hover: #3d3431;
+    --footer-contacts-title-text: #ebbaa9;
+    --footer-contacts-title-text-span: #a59489;
+    --footer-contacts-list-text: #936f62;
+    --footer-contacts-item-link: #a59489;
+    --footer-contacts-item-link-line-hover: #936f62;
+    --footer-contacts-item-link-hover: #936f62;
+    --footer-subscribe-title-text: #936f62;
+    --footer-subscribe-title-text-span: #ebbaa9;
+    --footer-subscribe-form-input-placeholder: #a59489;
+    --footer-subscribe-form-background: #f4e9e0;
+    --footer-subscribe-button-subscribe-background: #ebbaa9;
+    --footer-subscribe-button-subscribe-text: #ffffff;
+    --footer-subscribe-button-subscribe-background-hover: #333333;
+    --footer-line-title-background: #333333;
+    --footer-container__bottom-text-top: #a59489;
+    --footer-container__bottom-text-bottom: #a59489;
+
+    --modal-top-choice-background: #000000c2;
+
+    --page-product-unit-title-text: #936f62;
+    --page-product-unit-title-text-line-hover: #3d3431;
+    --page-product-unit-title-text-hover: #3d3431;
+    --page-product-unit-active-img-border: #333333;
+    --page-product-unit-glyphicon-chevron-right: #ebbaa9;
+    --page-product-unit-glyphicon-chevron-left: #ebbaa9;
+    --page-product-unit-description-stock-text: #61a854;
+    --page-product-unit-description-title-text: #333333;
+    --page-product-unit-description-text-italic: #868686;
+    --page-product-unit-description-price-text: #868686;
+    --page-product-unit-description-line-title: #868686;
+    --page-product-unit-description-quantity-input-border: #cccccc;
+    --page-product-unit-description-button-cart-background: #968a80;
+    --page-product-unit-description-button-cart-text: #ffffff;
+    --page-product-unit-description-button-cart-background-hover: #ebbaa9;
+    --page-product-unit-description-btn-outline-primary-background: #fbf0e5;
+    --page-product-unit-description-btn-outline-primary-text: #333333;
+    --page-product-unit-description-btn-outline-primary-border: #ebbaa9;
+    --page-product-unit-description-outline-primary-text: #333333;
+    --page-product-unit-description-outline-primary-border: #ebbaa9;
+    --page-product-unit-description-outline-primary-description-text: #868686;
+
+    --page-top-general-products-text-top: #333333;
+    --page-top-general-products-text-top-span: #ebbaa9;
+    --page-top-general-products-title-text: #333333;
+    --page-top-general-products-currency-text-title: #a59489;
+    --page-top-general-products-currency-border: #dddddd;
+    --page-top-general-products-currency-background: #fbf0e5;
+    --page-top-general-products-currency-text: #333333;
+    --page-top-general-products-currency-text-hover: #fbf0e5;
+    --page-top-general-products-currency-box-shadow: #555555;
+    --page-top-general-products-currency-animation: #555555;
+
+    --page-general-product-image-box-shadow-hover: #0d0b0b;
+    --page-general-product-name-text: #868686;
+    --page-general-product-name-text-hover: #333333;
+    --page-general-product-price-list: #a59489;
+    --page-general-button-cart-background: #a59489;
+    --page-general-button-cart-text: #ffffff;
+    --page-general-button-cart-background-hover: #ebbaa9;
+
+    --page-bottom-general-pagination-text: #ffffff;
+    --page-bottom-general-pagination-background: #a59489;
+    --page-bottom-general-pagination-border: #735e55;
+    --page-bottom-general-pagination-text-hover: #ffffff;
+    --page-bottom-general-pagination-background-hover: #735e55;
+    --page-bottom-general-per-page-label-text: #868686;
+    --page-bottom-general-per-page-border: #cccccc;
+    --page-bottom-general-per-page-background: #f9f9f9;
+    --page-bottom-general-per-page-text: #333333;
+    --page-bottom-general-per-page-focus-border: #333333;
+    --page-bottom-general-per-page-focus-background: #ffffff;
+    --page-bottom-general-per-page-focus-background-hover: #e6e6e6;
+
     --font-family-title: 'Lexend', sans-serif;
-    --font-family-text: "Niconne", cursive;
+    --font-family-text: 'Lato', sans-serif;
+    --font-family-coursive: "Niconne", cursive;
 }
 
 img {

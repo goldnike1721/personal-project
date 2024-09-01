@@ -10,11 +10,11 @@
 }
 
 .store-homepage__bottom .pagination .page-link {
-    color: #ffffff;
+    color: var(--page-bottom-general-pagination-text);
     font-weight: 560;
-    background-color: #a59489;
+    background-color: var(--page-bottom-general-pagination-background);
     border: none;
-    border: 2px solid #735e55;
+    border: 2px solid var(--page-bottom-general-pagination-border);
     transition: background-color .6s ease;
     outline: none;
     box-shadow: none;
@@ -27,8 +27,8 @@
 }
 
 .store-homepage__bottom .pagination .page-link:hover {
-    background-color: #735e55;
-    color: #ffffff;
+    background-color: var(--page-bottom-general-pagination-background-hover);
+    color: var(--page-bottom-general-pagination-text-hover);
 }
 
 .store-homepage__per-page {
@@ -36,7 +36,7 @@
     align-items: center;
     justify-content: center;
     text-decoration: none;
-    font-family: 'Lato', sans-serif;
+    font-family: var(--font-family-text);
     font-size: 15px;
     font-weight: 560;
     line-height: 1.5;
@@ -46,28 +46,28 @@
 .store-homepage__per-page label {
     margin-right: 10px;
     font-weight: bold;
-    color: #868686;
+    color: var(--page-bottom-general-per-page-label-text);
 }
 
 .store-homepage__per-page select {
     padding: 8px 12px;
     font-size: 16px;
-    border: 1.5px solid #cccccc;
+    border: 1.5px solid var(--page-bottom-general-per-page-border);
     border-radius: 5px;
-    background-color: #f9f9f9;
-    color: #333333;
+    background-color: var(--page-bottom-general-per-page-background);
+    color: var(--page-bottom-general-per-page-text);
     cursor: pointer;
     transition: all 0.3s ease;
 }
 
 .store-homepage__per-page select:focus {
     outline: none;
-    border-color: #333333;
-    background-color: #ffffff;
+    border-color: var(--page-bottom-general-per-page-focus-border);
+    background-color: var(--page-bottom-general-per-page-focus-background);
 }
 
 .store-homepage__per-page select:hover {
-    background-color: #e6e6e6;
+    background-color: var(--page-bottom-general-per-page-focus-background-hover);
 }
 
 @media (min-width: 767px) {

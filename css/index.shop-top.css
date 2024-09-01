@@ -9,24 +9,24 @@
     }
 
     .shop__text-italic {
-        font-family: "Niconne", cursive;
+        font-family: var(--font-family-coursive);
         font-style: italic;
         font-size: 22px;
-        color: #ebbaa9;
+        color: var(--shop-top-text-italic);
         font-weight: 400;
         line-height: 1.5;
         margin: 0;
     }
 
     .shop__title-head {
-        font-family: 'Lexend', sans-serif;
+        font-family: var(--font-family-title);
         font-size: 34px;
-        color: #333333;
+        color: var(--shop-top-title-head);
         padding: 30px 0;
         margin: 0;
 
         .shop__title-head-span {
-            color: #ebbaa9;
+            color: var(--shop-top-title-head-span);
         }
     }
 
@@ -39,9 +39,9 @@
     }
 
     .shop__description-paragraph {
-        font-family: 'Lato', sans-serif;
+        font-family: var(--font-family-text);
         font-size: 20px;
-        color: #a59489;
+        color: var(--shop-top-description-paragraph);
         font-weight: 400;
         line-height: 1.5;
         padding-top: 30px;
@@ -56,9 +56,9 @@
 
         .shop-currency__text {
             .shop-currency__text-title {
-                font-family: 'Lato', sans-serif;
+                font-family: var(--font-family-text);
                 font-size: 17px;
-                color: #a59489;
+                color: var(--shop-top-currency-text-title);
                 font-weight: 400;
                 line-height: 1.5;
                 margin: 0;
@@ -68,10 +68,10 @@
         .shop-container__currency {
             position: relative;
             display: inline-block;
-            border: 2px solid #dddddd;
+            border: 2px solid var(--shop-top-currency-border);
             border-radius: 5px;
             overflow: hidden;
-            background: #fbf0e5;
+            background: var(--shop-top-currency-background);
         }
 
         .products__currency {
@@ -83,7 +83,7 @@
             width: 80px;
             height: 40px;
             font-weight: bold;
-            color: #333333;
+            color: var(--shop-top-currency-text);
             cursor: pointer;
             outline: none;
             border-radius: 0;
@@ -91,12 +91,12 @@
         }
 
         .products__currency:hover {
-            background-color: #fbf0e5;
+            background-color: var(--shop-top-currency-background-hover);
         }
 
         .products__currency:focus {
             border: none;
-            box-shadow: 0 0 0 2px #555555;
+            box-shadow: 0 0 0 2px var(--shop-top-currency-box-shadow-focus);
         }
 
         .shop-container__currency::after {
@@ -107,7 +107,7 @@
             transform: translateY(-50%);
             font-size: 12px;
             pointer-events: none;
-            color: #555555;
+            color: var(--shop-top-currency-animation-color);
         }
     }
 }

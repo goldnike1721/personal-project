@@ -24,19 +24,19 @@
 
         .top-choice__content {
             .top-choice__text-italic {
-                font-family: "Niconne", cursive;
+                font-family: var(--font-family-coursive);
                 font-style: italic;
                 font-size: 22px;
-                color: #879991;
+                color: var(--top-choice-text-italic);
                 font-weight: 400;
                 line-height: 1.5;
                 margin: 0;
             }
 
             .top-choice__title-text {
-                font-family: 'Lexend', sans-serif;
+                font-family: var(--font-family-title);
                 font-size: 34px;
-                color: #3d7d72;
+                color: var(--top-choice-text-title);
                 font-weight: 700;
                 line-height: 1.5;
                 padding-top: 35px;
@@ -56,9 +56,9 @@
             }
 
             .top-choice__heading-text {
-                font-family: 'Lato', sans-serif;
+                font-family: var(--font-family-text);
                 font-size: 20px;
-                color: #71897d;
+                color: var(--top-choice-heading-text);
                 font-weight: 400;
                 line-height: 1.5;
                 padding-top: 35px;
@@ -66,9 +66,9 @@
             }
 
             .top-choice__paragraph-text {
-                font-family: 'Lato', sans-serif;
+                font-family: var(--font-family-text);
                 font-size: 17px;
-                color: #849b91;
+                color: var(--top-choice-paragraph-text);
                 font-weight: 400;
                 line-height: 1.5;
                 padding-top: 35px;

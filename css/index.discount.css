@@ -12,15 +12,15 @@
                 align-items: center;
                 justify-content: center;
                 flex-direction: column;
-                background-color: #fbf0e5;
+                background-color: var(--discount-background-container);
                 border-radius: 10px;
 
                 .discount-sale__title-number {
-                    font-family: 'Lexend', sans-serif;
+                    font-family: var(--font-family-title);
                     font-size: 35px;
                     font-weight: 400;
                     line-height: 1.5;
-                    color: #ebbaa9;
+                    color: var(--discount-title-number);
                     padding-top: 19.5px;
                     font-weight: 700;
                 }
@@ -34,11 +34,11 @@
 
                 .discount-sale__text-paragraph {
                     text-align: center;
-                    font-family: 'Lato', sans-serif;
+                    font-family: var(--font-family-text);
                     font-size: 20px;
                     font-weight: 400;
                     line-height: 1.5;
-                    color: #936f629e;
+                    color: var(--discount-paragraph-text);
                     padding: 0 35px 25px 35px;
                 }
             }
@@ -64,11 +64,11 @@
         }
 
         .discount-container__title-text {
-            font-family: 'Lexend', sans-serif;
+            font-family: var(--font-family-title);
             font-size: 24px;
             font-weight: 400;
             line-height: 1.5;
-            color: #333333;
+            color: var(--discount-title-text);
             padding: 35px 35px 0 30px;
             font-weight: 700;
         }
@@ -78,11 +78,11 @@
         }
 
         .discount-container__description-paragraph {
-            font-family: 'Lato', sans-serif;
+            font-family: var(--font-family-text);
             font-size: 20px;
             font-weight: 400;
             line-height: 1.5;
-            color: #868686;
+            color: var(--discount-description-paragraph);
             padding: 0 35px 25px 30px;
         }
 
@@ -92,20 +92,20 @@
             padding: 0 0 30px 30px;
 
             .discount-button__shop {
-                height: 40px;
                 display: flex;
                 align-items: center;
                 justify-content: center;
+                height: 40px;
                 border-radius: 7px;
                 padding: 0 10px;
-                font-family: 'Lato', sans-serif;
+                font-family: var(--font-family-text);
                 font-size: 14px;
                 font-weight: 570;
                 box-sizing: border-box;
                 transition: background-color .5s ease, color .5s ease;
                 cursor: pointer;
-                background-color: #c492c0;
-                color: #ffffff;
+                background-color: var(--discount-button-shop-background);
+                color: var(--discount-button-shop-text);
                 text-decoration: none;
             }
 
@@ -116,7 +116,7 @@
             }
 
             .discount-button__shop:hover {
-                background-color: #333333;
+                background-color: var(--discount-button-shop-background-hover);
             }
         }
     }
