@@ -1,9 +1,25 @@
 [
     {
         "id": "lemon-start",
+        "sku": 1,
+        "product": "Lemon Start",
         "stock": "In stock",
         "title": "Lemon Start",
         "image": "img/product/lemon-start.png",
+        "images": [
+            {
+                "image": "img/product/lemon-start.png"
+            },
+            {
+                "image": "img/product/lemon-start2.png"
+            },
+            {
+                "image": "img/product/lemon-start3.png"
+            },
+            {
+                "image": "img/product/lemon-start4.png"
+            }
+        ],
         "image2": "img/product/lemon-start2.png",
         "image3": "img/product/lemon-start3.png",
         "image4": "img/product/lemon-start4.png",
@@ -17,9 +33,25 @@
     },
     {
         "id": "fresh-touch",
+        "sku": 2,
+        "product": "Fresh Touch",
         "stock": "In stock",
         "title": "Fresh Touch",
         "image": "img/product/fresh-touch.png",
+        "images": [
+            {
+                "image": "img/product/fresh-touch.png"
+            },
+            {
+                "image": "img/product/fresh-touch2.png"
+            },
+            {
+                "image": "img/product/fresh-touch3.png"
+            },
+            {
+                "image": "img/product/fresh-touch4.png"
+            }
+        ],
         "image2": "img/product/fresh-touch2.png",
         "image3": "img/product/fresh-touch3.png",
         "image4": "img/product/fresh-touch4.png",
@@ -33,9 +65,25 @@
     },
     {
         "id": "tender-lavender",
+        "sku": 3,
+        "product": "Tender Lavender",
         "stock": "In stock",
         "title": "Tender Lavender",
         "image": "img/product/tender-lavender.png",
+        "images": [
+            {
+                "image": "img/product/tender-lavender.png"
+            },
+            {
+                "image": "img/product/tender-lavender2.png"
+            },
+            {
+                "image": "img/product/tender-lavender3.png"
+            },
+            {
+                "image": "img/product/tender-lavender4.png"
+            }
+        ],
         "image2": "img/product/tender-lavender2.png",
         "image3": "img/product/tender-lavender3.png",
         "image4": "img/product/tender-lavender4.png",
@@ -49,9 +97,25 @@
     },
     {
         "id": "lemon-vanilla",
+        "sku": 4,
+        "product": "Lemon & Vanilla",
         "stock": "In stock",
         "title": "Lemon & Vanilla",
         "image": "img/product/lemon-vanilla.png",
+        "images": [
+            {
+                "image": "img/product/lemon-vanilla.png"
+            },
+            {
+                "image": "img/product/lemon-vanilla2.png"
+            },
+            {
+                "image": "img/product/lemon-vanilla3.png"
+            },
+            {
+                "image": "img/product/lemon-vanilla4.png"
+            }
+        ],
         "image2": "img/product/lemon-vanilla2.png",
         "image3": "img/product/lemon-vanilla3.png",
         "image4": "img/product/lemon-vanilla4.png",
@@ -65,9 +129,25 @@
     },
     {
         "id": "matcha-tea",
+        "sku": 5,
+        "product": "Matcha Tea",
         "stock": "In stock",
         "title": "Matcha Tea",
         "image": "img/product/matcha-tea.png",
+        "images": [
+            {
+                "image": "img/product/matcha-tea.png"
+            },
+            {
+                "image": "img/product/matcha-tea2.png"
+            },
+            {
+                "image": "img/product/matcha-tea3.png"
+            },
+            {
+                "image": "img/product/matcha-tea4.png"
+            }
+        ],
         "image2": "img/product/matcha-tea2.png",
         "image3": "img/product/matcha-tea3.png",
         "image4": "img/product/matcha-tea4.png",
@@ -81,9 +161,25 @@
     },
     {
         "id": "cinnamon-delight",
+        "sku": 6,
+        "product": "Cinnamon Delight",
         "stock": "In stock",
         "title": "Cinnamon Delight",
         "image": "img/product/cinnamon-delight.png",
+        "images": [
+            {
+                "image": "img/product/cinnamon-delight.png"
+            },
+            {
+                "image": "img/product/cinnamon-delight2.png"
+            },
+            {
+                "image": "img/product/cinnamon-delight3.png"
+            },
+            {
+                "image": "img/product/cinnamon-delight4.png"
+            }
+        ],
         "image2": "img/product/cinnamon-delight2.png",
         "image3": "img/product/cinnamon-delight3.png",
         "image4": "img/product/cinnamon-delight4.png",
@@ -97,9 +193,25 @@
     },
     {
         "id": "caramel-dream",
+        "sku": 7,
+        "product": "Caramel Dream",
         "stock": "In stock",
         "title": "Caramel Dream",
         "image": "img/product/caramel-dream.png",
+        "images": [
+            {
+                "image": "img/product/caramel-dream.png"
+            },
+            {
+                "image": "img/product/caramel-dream2.png"
+            },
+            {
+                "image": "img/product/caramel-dream3.png"
+            },
+            {
+                "image": "img/product/caramel-dream4.png"
+            }
+        ],
         "image2": "img/product/caramel-dream2.png",
         "image3": "img/product/caramel-dream3.png",
         "image4": "img/product/caramel-dream4.png",
@@ -113,13 +225,29 @@
     },
     {
         "id": "orange-boost",
+        "sku": 8,
+        "product": "Orange Boost",
         "stock": "In stock",
         "title": "Orange Boost",
         "image": "img/product/orange-boost.png",
+        "images": [
+            {
+                "image": "img/product/orange-boost.png"
+            },
+            {
+                "image": "img/product/orange-boost2.png"
+            },
+            {
+                "image": "img/product/orange-boost3.png"
+            },
+            {
+                "image": "img/product/orange-boost4.png"
+            }
+        ],
         "image2": "img/product/orange-boost2.png",
         "image3": "img/product/orange-boost3.png",
         "image4": "img/product/orange-boost4.png",
-        "number": "Product code 30",
+        "number": "Product code 34",
         "price": 2.99,
         "description": "This orange hand soap is handcrafted from an organic Shea and glycerin soap blend. The tangerine aroma is derived from dried orange slices and oils to make your skin smelling fresh and clean.",
         "usage": "Wet your skin, lather the orange boost soap bar, and massage gently. Rinse thoroughly. Suitable for daily use. Avoid contact with eyes. For external use only.",
@@ -129,9 +257,25 @@
     },
     {
         "id": "arabica-coffee",
+        "sku": 9,
+        "product": "Arabica Coffee",
         "stock": "In stock",
         "title": "Arabica Coffee",
         "image": "img/product/arabica-coffee.png",
+        "images": [
+            {
+                "image": "img/product/arabica-coffee.png"
+            },
+            {
+                "image": "img/product/arabica-coffee2.png"
+            },
+            {
+                "image": "img/product/arabica-coffee3.png"
+            },
+            {
+                "image": "img/product/arabica-coffee4.png"
+            }
+        ],
         "image2": "img/product/arabica-coffee2.png",
         "image3": "img/product/arabica-coffee3.png",
         "image4": "img/product/arabica-coffee4.png",
@@ -145,9 +289,25 @@
     },
     {
         "id": "almond",
+        "sku": 10,
+        "product": "Almond",
         "stock": "In stock",
         "title": "Almond",
         "image": "img/product/almond.png",
+        "images": [
+            {
+                "image": "img/product/almond.png"
+            },
+            {
+                "image": "img/product/almond2.png"
+            },
+            {
+                "image": "img/product/almond3.png"
+            },
+            {
+                "image": "img/product/almond4.png"
+            }
+        ],
         "image2": "img/product/almond2.png",
         "image3": "img/product/almond3.png",
         "image4": "img/product/almond4.png",
@@ -161,9 +321,25 @@
     },
     {
         "id": "cherry-blossom",
+        "sku": 11,
+        "product": "Cherry Blossom",
         "stock": "In stock",
         "title": "Cherry Blossom",
         "image": "img/product/cherry-blossom.png",
+        "images": [
+            {
+                "image": "img/product/cherry-blossom.png"
+            },
+            {
+                "image": "img/product/cherry-blossom2.png"
+            },
+            {
+                "image": "img/product/cherry-blossom3.png"
+            },
+            {
+                "image": "img/product/cherry-blossom4.png"
+            }
+        ],
         "image2": "img/product/cherry-blossom2.png",
         "image3": "img/product/cherry-blossom3.png",
         "image4": "img/product/cherry-blossom4.png",
@@ -177,9 +353,25 @@
     },
     {
         "id": "coniferous-tree",
+        "sku": 12,
+        "product": "Coniferous Tree",
         "stock": "In stock",
         "title": "Coniferous Tree",
         "image": "img/product/coniferous-tree.png",
+        "images": [
+            {
+                "image": "img/product/coniferous-tree.png"
+            },
+            {
+                "image": "img/product/coniferous-tree2.png"
+            },
+            {
+                "image": "img/product/coniferous-tree3.png"
+            },
+            {
+                "image": "img/product/coniferous-tree4.png"
+            }
+        ],
         "image2": "img/product/coniferous-tree2.png",
         "image3": "img/product/coniferous-tree3.png",
         "image4": "img/product/coniferous-tree4.png",
@@ -193,25 +385,57 @@
     },
     {
         "id": "early-strawberries",
+        "sku": 13,
+        "product": "Early Strawberries",
         "stock": "In stock",
         "title": "Early Strawberries",
         "image": "img/product/early-strawberries.png",
+        "images": [
+            {
+                "image": "img/product/early-strawberries.png"
+            },
+            {
+                "image": "img/product/early-strawberries2.png"
+            },
+            {
+                "image": "img/product/early-strawberries3.png"
+            },
+            {
+                "image": "img/product/early-strawberries4.png"
+            }
+        ],
         "image2": "img/product/early-strawberries2.png",
         "image3": "img/product/early-strawberries3.png",
         "image4": "img/product/early-strawberries4.png",
         "number": "Product code 5",
-        "price": 2.99,
-        "description": "A soft peach-colored soap with white heart shapes on the surface. This soap has a romantic and attractive appearance, making it a perfect gift.",
-        "usage": "Suitable for sensitive skin. Use daily for gentle cleansing and nourishment of the skin.",
-        "ingredients": "Shea butter, coconut oil, essential oils, natural fragrance, mineral colorants.",
+        "price": 3.99,
+        "description": "Sweet and tangy, these early strawberries offer a burst of summer flavor in every bite. Perfectly ripened and handpicked, they bring the essence of fresh, sun-ripened strawberries.",
+        "usage": "Perfect for snacking, adding to salads, or as a topping for desserts. Enjoy them fresh or incorporate them into smoothies and baking for an extra fruity twist.",
+        "ingredients": "100% Fresh Strawberries: Handpicked from local farms, these strawberries are carefully selected to ensure only the best quality. No Artificial Preservatives: Packed fresh to retain their natural sweetness and flavor, with no artificial preservatives or additives.",
         "linkText": "Early Strawberries",
-        "altText": "Soap with white hearts"
+        "altText": "The image shows a close-up of fresh strawberries, with vibrant red color and small seeds, highlighting their natural beauty and ripeness."
     },
     {
         "id": "fragrant-rose",
+        "sku": 14,
+        "product": "Fragrant Rose",
         "stock": "In stock",
         "title": "Fragrant Rose",
         "image": "img/product/fragrant-rose.png",
+        "images": [
+            {
+                "image": "img/product/fragrant-rose.png"
+            },
+            {
+                "image": "img/product/fragrant-rose2.png"
+            },
+            {
+                "image": "img/product/fragrant-rose3.png"
+            },
+            {
+                "image": "img/product/fragrant-rose4.png"
+            }
+        ],
         "image2": "img/product/fragrant-rose2.png",
         "image3": "img/product/fragrant-rose3.png",
         "image4": "img/product/fragrant-rose4.png",
@@ -221,13 +445,29 @@
         "usage": "Suitable for all skin types. Perfect for deep cleansing and moisturizing the skin, leaving it soft and fresh.",
         "ingredients": "Olive oil, coconut oil, essential oils, ground chia seeds, natural colorants.",
         "linkText": "Fragrant Rose",
-        "altText": "Two-toned soap with black specks"
+        "altText": "Two-toned soap with black specks."
     },
     {
         "id": "gentle-coffee",
+        "sku": 15,
+        "product": "Gentle Coffee",
         "stock": "In stock",
         "title": "Gentle Coffee",
         "image": "img/product/gentle-coffee.png",
+        "images": [
+            {
+                "image": "img/product/gentle-coffee.png"
+            },
+            {
+                "image": "img/product/gentle-coffee2.png"
+            },
+            {
+                "image": "img/product/gentle-coffee3.png"
+            },
+            {
+                "image": "img/product/gentle-coffee4.png"
+            }
+        ],
         "image2": "img/product/gentle-coffee2.png",
         "image3": "img/product/gentle-coffee3.png",
         "image4": "img/product/gentle-coffee4.png",
@@ -241,9 +481,25 @@
     },
     {
         "id": "hemp",
+        "sku": 16,
+        "product": "Hemp",
         "stock": "In stock",
         "title": "Hemp",
         "image": "img/product/hemp.png",
+        "images": [
+            {
+                "image": "img/product/hemp.png"
+            },
+            {
+                "image": "img/product/hemp2.png"
+            },
+            {
+                "image": "img/product/hemp3.png"
+            },
+            {
+                "image": "img/product/hemp4.png"
+            }
+        ],
         "image2": "img/product/hemp2.png",
         "image3": "img/product/hemp3.png",
         "image4": "img/product/hemp4.png",
@@ -257,9 +513,25 @@
     },
     {
         "id": "moroccan-forest",
+        "sku": 17,
+        "product": "Moroccan Forest",
         "stock": "In stock",
         "title": "Moroccan Forest",
         "image": "img/product/moroccan-forest.png",
+        "images": [
+            {
+                "image": "img/product/moroccan-forest.png"
+            },
+            {
+                "image": "img/product/moroccan-forest2.png"
+            },
+            {
+                "image": "img/product/moroccan-forest3.png"
+            },
+            {
+                "image": "img/product/moroccan-forest4.png"
+            }
+        ],
         "image2": "img/product/moroccan-forest2.png",
         "image3": "img/product/moroccan-forest3.png",
         "image4": "img/product/moroccan-forest4.png",
@@ -273,9 +545,25 @@
     },
     {
         "id": "natural-clay",
+        "sku": 18,
+        "product": "Natural Clay",
         "stock": "In stock",
         "title": "Natural Clay",
         "image": "img/product/natural-clay.png",
+        "images": [
+            {
+                "image": "img/product/natural-clay.png"
+            },
+            {
+                "image": "img/product/natural-clay2.png"
+            },
+            {
+                "image": "img/product/natural-clay3.png"
+            },
+            {
+                "image": "img/product/natural-clay4.png"
+            }
+        ],
         "image2": "img/product/natural-clay2.png",
         "image3": "img/product/natural-clay3.png",
         "image4": "img/product/natural-clay4.png",
@@ -283,15 +571,31 @@
         "price": 3.99,
         "description": "A beautifully marbled soap with swirls of brown and cream. This soap is enriched with natural clay, which helps cleanse and detoxify your skin, leaving it feeling refreshed.",
         "usage": "Wet the bar, work into a rich lather, and apply to the skin. Rinse off to leave your skin feeling fresh and clean.",
-        "ingredients": "Olive oil, coconut oil, shea butter, bentonite clay, kaolin clay, essential oils, water, lye.",
+        "ingredients": "Olive oil, coconut oil, natural clay, shea butter, essential oils, lye, water.",
         "linkText": "Natural Clay",
-        "altText": "A bar of soap with elegant brown and cream swirls, standing upright on a minimalist beige background. The intricate marbling gives it a luxurious appearance."
+        "altText": "A marbled brown and cream soap bar with intricate swirls, placed on a neutral backdrop. The design highlights the natural clay content and artisan craftsmanship."
     },
     {
         "id": "natural-honey",
+        "sku": 19,
+        "product": "Natural Honey",
         "stock": "In stock",
         "title": "Natural Honey",
         "image": "img/product/natural-honey.png",
+        "images": [
+            {
+                "image": "img/product/natural-honey.png"
+            },
+            {
+                "image": "img/product/natural-honey2.png"
+            },
+            {
+                "image": "img/product/natural-honey3.png"
+            },
+            {
+                "image": "img/product/natural-honey4.png"
+            }
+        ],
         "image2": "img/product/natural-honey2.png",
         "image3": "img/product/natural-honey3.png",
         "image4": "img/product/natural-honey4.png",
@@ -305,9 +609,25 @@
     },
     {
         "id": "plants",
+        "sku": 20,
+        "product": "Plants",
         "stock": "In stock",
         "title": "Plants",
         "image": "img/product/plants.png",
+        "images": [
+            {
+                "image": "img/product/plants.png"
+            },
+            {
+                "image": "img/product/plants2.png"
+            },
+            {
+                "image": "img/product/plants3.png"
+            },
+            {
+                "image": "img/product/plants4.png"
+            }
+        ],
         "image2": "img/product/plants2.png",
         "image3": "img/product/plants3.png",
         "image4": "img/product/plants4.png",
@@ -321,9 +641,25 @@
     },
     {
         "id": "sea-salt",
+        "sku": 21,
+        "product": "Sea Salt",
         "stock": "In stock",
         "title": "Sea Salt",
         "image": "img/product/sea-salt.png",
+        "images": [
+            {
+                "image": "img/product/sea-salt.png"
+            },
+            {
+                "image": "img/product/sea-salt2.png"
+            },
+            {
+                "image": "img/product/sea-salt3.png"
+            },
+            {
+                "image": "img/product/sea-salt4.png"
+            }
+        ],
         "image2": "img/product/sea-salt2.png",
         "image3": "img/product/sea-salt3.png",
         "image4": "img/product/sea-salt4.png",
@@ -337,9 +673,25 @@
     },
     {
         "id": "sea-shore",
+        "sku": 22,
+        "product": "Sea Shore",
         "stock": "In stock",
         "title": "Sea Shore",
         "image": "img/product/sea-shore.png",
+        "images": [
+            {
+                "image": "img/product/sea-shore.png"
+            },
+            {
+                "image": "img/product/sea-shore2.png"
+            },
+            {
+                "image": "img/product/sea-shore3.png"
+            },
+            {
+                "image": "img/product/sea-shore4.png"
+            }
+        ],
         "image2": "img/product/sea-shore2.png",
         "image3": "img/product/sea-shore3.png",
         "image4": "img/product/sea-shore4.png",
@@ -353,25 +705,57 @@
     },
     {
         "id": "soap-assorted",
+        "sku": 23,
+        "product": "Soap Assorted",
         "stock": "In stock",
         "title": "Soap Assorted",
         "image": "img/product/soap-assorted.png",
+        "images": [
+            {
+                "image": "img/product/soap-assorted.png"
+            },
+            {
+                "image": "img/product/soap-assorted2.png"
+            },
+            {
+                "image": "img/product/soap-assorted3.png"
+            },
+            {
+                "image": "img/product/soap-assorted4.png"
+            }
+        ],
         "image2": "img/product/soap-assorted2.png",
         "image3": "img/product/soap-assorted3.png",
         "image4": "img/product/soap-assorted4.png",
         "number": "Product code 15",
-        "price": 1.99,
-        "description": "A vibrant mix of colors and patterns, this soap bar is crafted with a variety of oils and clays to nourish the skin. The marbled pattern adds an artistic touch to your skincare routine.",
-        "usage": "Lather the soap in your hands and apply to damp skin. Rinse off thoroughly for a rejuvenating cleanse.",
-        "ingredients": "Olive oil, coconut oil, shea butter, kaolin clay, indigo powder, turmeric, essential oils, water, lye.",
+        "price": 5.99,
+        "description": "This assorted collection offers a variety of soaps, each with unique designs and natural ingredients. It's perfect for gifting or for those who love to switch up their daily routines.",
+        "usage": "Use any soap from the assortment to cleanse and refresh your skin.",
+        "ingredients": "Olive oil, coconut oil, shea butter, essential oils, natural clays, and other botanical extracts.",
         "linkText": "Soap Assorted",
-        "altText": "A soap bar with swirling patterns of blue, yellow, and brown. The vibrant colors stand out against a clean, white backdrop, giving it a fresh, modern look."
+        "altText": "An assortment of artisan soaps in various colors and designs, displayed on a natural wooden background."
     },
     {
         "id": "varietal-raspberry",
+        "sku": 24,
+        "product": "Varietal Raspberry",
         "stock": "In stock",
         "title": "Varietal Raspberry",
         "image": "img/product/varietal-raspberry.png",
+        "images": [
+            {
+                "image": "img/product/varietal-raspberry.png"
+            },
+            {
+                "image": "img/product/varietal-raspberry2.png"
+            },
+            {
+                "image": "img/product/varietal-raspberry3.png"
+            },
+            {
+                "image": "img/product/varietal-raspberry4.png"
+            }
+        ],
         "image2": "img/product/varietal-raspberry2.png",
         "image3": "img/product/varietal-raspberry3.png",
         "image4": "img/product/varietal-raspberry4.png",

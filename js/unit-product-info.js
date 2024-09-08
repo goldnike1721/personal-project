@@ -103,7 +103,7 @@
                                 </form>
                             </div>
                             <div class="products-description__button-cart">
-                                <button class="products-description__cart" onclick="addToCart('${product.id}')">Add to
+                                <button class="products-description__cart" @click="addToCart(product)" onclick="addToCart('${product.id}')">Add to
                                     Cart</button>
                             </div>
                         </div>

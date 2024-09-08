@@ -32,43 +32,62 @@
                         can experience all these benefits of matcha in our artisan soap.</p>
                 </div>
             </div>
-            <article class="top-choice__container-image">
-                <div class="top-choice__image-block">
-                    <a href="#" class="top-choice__block-image">
-                        <img class="top-choice__image heigh-quality" src="img/top-choice/high-quality.svg"
-                            alt="The picture shows the 2020 annual award" data-bs-toggle="modal"
-                            data-bs-target="#exampleModal">
-                    </a>
+            <div class="top-choice__container-image top-choice-animated-carousel">
+                <div class="top-choice-animated-carousel__inner">
+                    <div class="top-choice-card">
+                        <a href="#" class="top-choice__block-image">
+                            <img class="top-choice__image heigh-quality" data-id="1"
+                                src="img/top-choice/high-quality.svg" alt="The picture shows the 2020 annual award"
+                                data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        </a>
+                    </div>
+                    <div class="top-choice-card">
+                        <a href="#" class="top-choice__block-image">
+                            <img class="top-choice__image best-soap" data-id="2" src="img/top-choice/best-soap.svg"
+                                alt="The picture shows the 2018 annual award" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal">
+                        </a>
+                    </div>
+                    <div class="top-choice-card">
+                        <a href="#" class="top-choice__block-image">
+                            <img class="top-choice__image top-natural" data-id="3" src="img/top-choice/top-natural.svg"
+                                alt="The picture shows the 2017 annual award" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal">
+                        </a>
+                    </div>
+                    <div class="top-choice-card">
+                        <a href="#" class="top-choice__block-image">
+                            <img class="top-choice__image best-choice" data-id="4" src="img/top-choice/best-choice.svg"
+                                alt="The picture shows the 2020 annual award" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal">
+                        </a>
+                    </div>
+                    <div class="top-choice-card">
+                        <a href="#" class="top-choice__block-image">
+                            <img class="top-choice__image organic-soap" data-id="5"
+                                src="img/top-choice/organic-soap.svg" alt="The picture shows the 2018 annual award"
+                                data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        </a>
+                    </div>
                 </div>
-                <div class="top-choice__image-block carousel-none-first">
-                    <a href="#" class="top-choice__block-image">
-                        <img class="top-choice__image best-soap" src="img/top-choice/best-soap.svg"
-                            alt="The picture shows the 2018 annual award" data-bs-toggle="modal"
-                            data-bs-target="#exampleModal">
-                    </a>
+                <button class="top-choice-animated-carousel__button top-choice-animated-carousel__button--prev"
+                    onclick="changeProductInModal('prev')">
+                    <i class="fa fa-angle-left"></i>
+                </button>
+                <button class="top-choice-animated-carousel__button top-choice-animated-carousel__button--next"
+                    onclick="changeProductInModal('next')">
+                    <i class="fa fa-angle-right"></i>
+                </button>
+            </div>
+            <div class="top-choice__carousel-indicators">
+                <div class="carousel-indicators">
+                    <span class="carousel-indicator" data-slide="0"></span>
+                    <span class="carousel-indicator" data-slide="1"></span>
+                    <span class="carousel-indicator" data-slide="2"></span>
+                    <span class="carousel-indicator" data-slide="3"></span>
+                    <span class="carousel-indicator" data-slide="4"></span>
                 </div>
-                <div class="top-choice__image-block carousel-none-second">
-                    <a href="#" class="top-choice__block-image">
-                        <img class="top-choice__image top-natural" src="img/top-choice/top-natural.svg"
-                            alt="The picture shows the 2017 annual award" data-bs-toggle="modal"
-                            data-bs-target="#exampleModal">
-                    </a>
-                </div>
-                <div class="top-choice__image-block carousel-none-third">
-                    <a href="#" class="top-choice__block-image">
-                        <img class="top-choice__image best-choice" src="img/top-choice/best-choice.svg"
-                            alt="The picture shows the 2020 annual award" data-bs-toggle="modal"
-                            data-bs-target="#exampleModal">
-                    </a>
-                </div>
-                <div class="top-choice__image-block carousel-none-fourth">
-                    <a href="#" class="top-choice__block-image">
-                        <img class="top-choice__image organic-soap" src="img/top-choice/organic-soap.svg"
-                            alt="The picture shows the 2018 annual award" data-bs-toggle="modal"
-                            data-bs-target="#exampleModal">
-                    </a>
-                </div>
-            </article>
+            </div>
         </div>
         <div class="top-choice__block">
             <div class="top-choice__block-background">

@@ -11,8 +11,8 @@ body.modal-open {
         display: flex;
         align-items: center;
         justify-content: center;
-        min-height: calc(100% - 1rem);
-        min-width: calc(100% - 1rem);
+        min-height: calc(100% - 16px);
+        min-width: calc(100% - 16px);
         margin: 0;
 
         .modal-content {
@@ -31,14 +31,14 @@ body.modal-open {
                         justify-content: center;
 
                         .top-choice__modal-image {
-                            width: 150px;
-                            height: 150px;
+                            width: 150px !important;
+                            height: 150px !important;
                             object-fit: contain;
                             display: block;
-                            width: 46.88dvi;
-                            height: 46.88dvi;
-                            max-width: 377px;
-                            max-height: 377px;
+                            width: 46.88dvi !important;
+                            height: 46.88dvi !important;
+                            max-width: 377px !important;
+                            max-height: 377px !important;
                         }
                     }
                 }
@@ -59,7 +59,34 @@ body.modal-open {
                 .carousel-control-next {
                     right: 0;
                 }
+
+                .carousel-control-prev:hover,
+                .carousel-control-next:hover {
+                    background-color: transparent;
+                }
             }
         }
+    }
+}
+
+.top-choice__modal-image {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 150px !important;
+    height: 150px !important;
+    object-fit: contain;
+    display: block;
+    width: 46.88dvi !important;
+    height: 46.88dvi !important;
+    max-width: 377px !important;
+    max-height: 377px !important;
+    position: relative;
+    left: calc(50% - 24.44dvi);
+}
+
+@media (min-width: 805px) {
+    .top-choice__modal-image {
+        left: calc(50% - 188.5px);
     }
 }

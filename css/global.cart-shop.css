@@ -1,0 +1,1010 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+button {
+    appearance: none;
+    padding: 2px;
+    margin: 8px 0;
+    background: white;
+    border: 1px solid black;
+    transition: all .5s;
+    font-size: 14px;
+    cursor: pointer;
+    user-select: none;
+}
+
+button .fa {
+    font-size: 16px !important;
+    vertical-align: middle;
+}
+
+button:hover {
+    color: white;
+    background: black;
+}
+
+.main-wrapper #vue {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.product-container {
+    padding: 0 24px 70px 24px;
+}
+
+.main-wrapper #vue .cart {
+    position: fixed;
+    right: 20px;
+    top: 101.17px;
+    background-color: #ebbaa9;
+    color: #333333;
+    font-family: var(--font-family-text);
+    font-size: 17px;
+    font-weight: 700;
+    z-index: 1;
+    text-align: right;
+    border-radius: 20px 70px 20px 70px / 50px 20px 70px 20px !important;
+}
+
+.cart-animation {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    border-radius: 20px 70px 20px 70px / 70px 20px 70px 20px !important;
+    background-color: #e8a48e;
+    height: 75px;
+}
+
+.cart-total-text {
+    font-family: var(----font-family-title);
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.shopping-cart {
+    font-family: var(--font-family-text);
+    font-size: 17px !important;
+    font-weight: 1000 !important;
+}
+
+.cart-size {
+    font-family: var(--font-family-text);
+    font-size: 15px !important;
+    font-weight: 1000 !important;
+}
+
+.main-wrapper #vue .cart .shopping-cart,
+.main-wrapper #vue .cart .cart-size {
+    text-align: left;
+    cursor: pointer;
+    user-select: none;
+}
+
+.main-wrapper #vue .cart .shopping-cart {
+    padding: 16px 0 16px 20px;
+}
+
+.main-wrapper #vue .cart .cart-size {
+    width: 30px;
+    padding: 16px 10px 16px 3px;
+    transform: translateY(-17px);
+}
+
+.main-wrapper #vue .cart .cart-items {
+    padding: 32px 16px;
+    max-height: 650px;
+}
+
+.main-wrapper #vue .cart .cart-items .cartTable {
+    width: 80.75dvi;
+}
+
+.main-wrapper #vue .cart-items .cartTable {
+    text-align: center;
+}
+
+.main-wrapper #vue .cart .cart-items .cartImage {
+    width: 64px;
+    height: 64px;
+    border-radius: 10% 50% 10% 50% / 50% 10% 50% 10%;
+    overflow: hidden;
+    left: 0;
+    margin: 8px auto;
+    position: relative;
+    cursor: pointer;
+    transition: transform .5s ease, box-shadow .7s ease;
+    box-sizing: border-box;
+}
+
+.main-wrapper #vue .cart .cart-items .cartImage:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.25);
+    transition: all .5s;
+}
+
+.main-wrapper #vue .cart .cart-items .cartImage:hover {
+    transform: scale(0.97);
+    box-shadow: 0 0 0 1.5px black;
+}
+
+.main-wrapper #vue .cart .cart-items .cartImage i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    color: transparent;
+    z-index: 1;
+    transition: all .5s;
+}
+
+.main-wrapper #vue .cart .cart-items .cartImage:hover i {
+    text-shadow: 1px 2px 5px black;
+    color: #ffffff;
+}
+
+.main-wrapper #vue .cart .cart-items .cartImage:hover:after {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.main-wrapper #vue .cart .cart-items .cartImage:active i {
+    text-shadow: 0px 0px 1px black;
+}
+
+.main-wrapper #vue .cart .cart-items .cartSubTotal {
+    border-top: 1px solid white;
+    font-size: 15px;
+}
+
+.cart__button-plus,
+.cart__button-minus {
+    color: black;
+    background-color: #e8a48e;
+    border-radius: 10% 50% 10% 50% / 50% 10% 50% 10%;
+    transition: transform .5s ease, box-shadow .5s ease, background-color .5s, color .5s;
+    box-sizing: border-box;
+}
+
+.cart__button-plus:hover,
+.cart__button-minus:hover {
+    color: white;
+    background-color: #936f62;
+    transform: scale(0.97);
+    box-shadow: 0 0 0 1.5px black;
+}
+
+.clearCart,
+.checkoutCart {
+    color: black;
+    background-color: #e8a48e;
+    transition: transform .5s ease, box-shadow .5s ease, background-color .5s, color .5s;
+    box-sizing: border-box;
+    font-family: var(--font-family-text);
+    font-size: 17px;
+    font-weight: 700;
+    margin: 35px 0 0 0;
+    padding: 15px;
+}
+
+.clearCart {
+    float: left;
+    border-radius: 20px 70px 20px 70px / 50px 20px 70px 20px;
+}
+
+.checkoutCart {
+    float: right;
+    border-radius: 20px 70px 20px 70px / 50px 20px 70px 20px;
+}
+
+.clearCart:hover,
+.checkoutCart:hover {
+    color: white;
+    background-color: #936f62;
+    transform: scale(0.97);
+    box-shadow: 0 0 0 1.5px black;
+}
+
+.main-wrapper #vue .products {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.main-wrapper #vue .products .product .image {
+    width: 100%;
+    height: 85dvi;
+    margin-bottom: 10px;
+}
+
+.name-product {
+    text-decoration: none !important;
+    font-family: var(--font-family-text);
+    font-size: 18px;
+    color: var(--page-general-product-name-text);
+    font-weight: 560;
+    line-height: 1.5;
+    transition: color .5s ease;
+}
+
+.name-product:hover {
+    color: var(--page-general-product-name-text-hover);
+}
+
+.price {
+    font-family: var(--font-family-text);
+    font-size: 20px;
+    color: var(--page-general-product-price-list);
+    font-weight: 560;
+    line-height: 1.5;
+    padding: 15px 0;
+    margin: 0;
+}
+
+.cart-checkout {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 280px;
+    height: 800px;
+    background-color: #ffffff;
+    border-radius: 20px 70px 20px 70px / 50px 20px 70px 20px;
+}
+
+.checkout-close__item {
+    position: fixed;
+    cursor: pointer;
+    right: 30px;
+    top: 30px;
+    color: #333333;
+    transition: color .5s ease;
+}
+
+.checkout-close__item i {
+    font-size: 20px;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.checkout-close__item:hover {
+    color: #936f62;
+}
+
+.checkout-title {
+    font-family: var(--font-family-text);
+    font-size: 30px;
+    font-weight: 900;
+    color: #333333;
+    padding: 10px 0 30px 0;
+}
+
+.checkout-text__pay {
+    font-family: var(--font-family-text);
+    font-size: 17px;
+    font-weight: 700;
+    color: #333333;
+    padding: 15px 0;
+    margin: 0;
+}
+
+.checkout-items__pay {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding-bottom: 25px;
+}
+
+.checkout-items__pay a {
+    display: inline-block;
+    transition: color .5s;
+    padding: 5px;
+    background-color: transparent;
+}
+
+.checkout-item__link {
+    color: #e8a48e;
+}
+
+.checkout-items__pay a:hover {
+    color: #936f62;
+}
+
+.checkout-items__pay i {
+    font-size: 30px;
+    width: 25px;
+    height: 25px;
+}
+
+.checkout-total__text {
+    font-family: var(--font-family-text);
+    font-size: 30px;
+    font-weight: 900;
+    color: #333333;
+    padding: 20px 0 10px 0;
+}
+
+.checkout-text__cart {
+    font-family: var(--font-family-text);
+    font-size: 20px;
+    font-weight: 700;
+    color: #333333;
+}
+
+.image,
+.additionalImage {
+    border-radius: 10% 50% 10% 50% / 50% 10% 50% 10%;
+    transition: transform .5s ease, box-shadow .7s ease;
+    box-sizing: border-box;
+}
+
+.image:hover {
+    transform: scale(0.97);
+    box-shadow: 0 0 0 3px black;
+}
+
+.additionalImage:hover {
+    transform: scale(0.97);
+    box-shadow: 0 0 0 1.5px black;
+}
+
+.button-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+}
+
+.button-buy {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    border-radius: 5px;
+    padding: 0 35px;
+    font-family: var(--font-family-text);
+    font-size: 15px;
+    font-weight: 570;
+    box-sizing: border-box;
+    transition: background-color .5s ease, color .5s ease;
+    cursor: pointer;
+    background-color: var(--page-general-button-cart-background);
+    color: var(--page-general-button-cart-text);
+    text-decoration: none;
+    outline: none;
+    border: none;
+}
+
+.button-buy:hover {
+    background-color: var(--page-general-button-cart-background-hover);
+}
+
+.main-wrapper #vue .modalWrapper .modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    text-align: center;
+    max-height: calc(100% - 32px);
+    overflow-y: scroll;
+    overflow-x: hidden;
+    animation: openUp 0.1s;
+    z-index: 3;
+    backface-visibility: hidden;
+}
+
+.modal-product {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ffffff !important;
+    width: 77.5dvi;
+    height: 180.63dvi;
+    border-radius: 20px 70px 20px 70px / 50px 20px 70px 20px;
+    text-align: center;
+    max-height: calc(100% - 2em);
+    overflow-y: scroll;
+    overflow-x: hidden;
+    animation: openUp 0.9s;
+    z-index: 3;
+    backface-visibility: hidden;
+}
+
+.main-wrapper #vue .modalWrapper .modal .additionalImages {
+    display: flex;
+    text-align: center;
+    width: 70vi;
+    height: 25dvi;
+    margin: 0 auto;
+}
+
+.main-wrapper #vue .modalWrapper .modal .additionalImages .additionalImage {
+    flex-grow: 1;
+    margin: 8px 5px;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    width: 25%;
+    height: auto;
+    position: relative;
+}
+
+.image-modal__wrapper {
+    border-radius: 20px 70px 20px 70px / 50px 20px 70px 20px;
+}
+
+.image-modal__wrapper-additional {
+    border-radius: 10% 50% 10% 50% / 50% 10% 50% 10%;
+}
+
+.main-wrapper #vue .modalWrapper .modal .imageWrapper {
+    overflow: hidden;
+    width: 70dvi;
+    height: 70dvi;
+}
+
+.main-wrapper #vue .modalWrapper .modal .imageWrapper .image {
+    width: 100%;
+    height: 100%;
+    transition: transform .3s;
+    z-index: 4;
+    cursor: crosshair;
+}
+
+.description {
+    display: none;
+}
+
+.name-product__modal {
+    font-family: var(--font-family-text);
+    font-size: 17px;
+    font-weight: 700;
+    color: #333333;
+    padding-top: 10px;
+}
+
+.price-product__modal {
+    font-family: var(--font-family-text);
+    font-size: 17px;
+    font-weight: 700;
+    color: #868686;
+}
+
+.modal-label {
+    font-family: var(--font-family-text);
+    font-size: 15px;
+    font-weight: 700;
+    color: #333333;
+    padding-right: 20px;
+}
+
+.modal-input {
+    width: 40px;
+    max-height: 37.8px;
+    border: none;
+    background-color: #fce8de;
+    color: #333333;
+    border-radius: 20px 70px 20px 70px / 50px 20px 70px 20px;
+    font-size: 15px;
+    font-weight: 700;
+    font-family: var(--font-family-text);
+    padding: 5px 0;
+    box-shadow: 0 0 0 1px black;
+    transition: transform .5s ease, box-shadow .5s ease, background-color .5s, color .5s;
+    text-align: center;
+}
+
+.modal-input:hover {
+    box-shadow: 0 0 0 2px black;
+}
+
+.modal-input:focus {
+    box-shadow: 0 0 0 2px black;
+    outline: none;
+    color: #333333;
+}
+
+.button-add-to-cart__modal {
+    color: var(--page-general-button-cart-text);
+    background-color: var(--page-general-button-cart-background);
+    transition: transform .5s ease, box-shadow .5s ease, background-color .5s, color .5s;
+    box-sizing: border-box;
+    font-family: var(--font-family-text);
+    font-size: 17px;
+    font-weight: 700;
+    margin: 35px 0 20px 0;
+    padding: 10px 20px;
+    border-radius: 20px 70px 20px 70px / 50px 20px 70px 20px;
+}
+
+.button-add-to-cart__modal:hover {
+    color: white;
+    background-color: var(--page-general-button-cart-background-hover);
+    transform: scale(0.97);
+    box-shadow: 0 0 0 1.5px black;
+}
+
+.main-wrapper #vue .modalWrapper .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 2;
+}
+
+.main-wrapper #vue .modalWrapper .prevProduct,
+.main-wrapper #vue .modalWrapper .nextProduct {
+    position: fixed;
+    color: white;
+    cursor: pointer;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 16px;
+    user-select: none;
+    z-index: 5;
+}
+
+.main-wrapper #vue .modalWrapper .prevProduct {
+    left: 5px;
+}
+
+.main-wrapper #vue .modalWrapper .nextProduct {
+    right: 5px;
+}
+
+.close-product__modal {
+    position: fixed;
+    top: 30px;
+    right: 30px;
+    font-size: 20px;
+    color: #333333;
+    cursor: pointer;
+    transition: color .5s ease;
+    z-index: 10;
+}
+
+.close-product__modal:hover {
+    color: #936f62;
+}
+
+.input-form,
+.personal-order__form-container textarea {
+    min-width: 200px;
+    max-height: 37.8px;
+    border: none;
+    background-color: #fce8de;
+    color: #333333;
+    border-radius: 20px 70px 20px 70px / 50px 20px 70px 20px;
+    font-size: 12px;
+    font-family: var(--font-family-text);
+    padding: 13px 20px 12px;
+    margin-bottom: 15px;
+    box-shadow: 0 0 0 1px black;
+    transition: transform .5s ease, box-shadow .5s ease, background-color .5s, color .5s;
+}
+
+.personal-order__form-container textarea {
+    min-height: 120px;
+    max-height: 160px;
+    margin: 0;
+}
+
+.input-form:hover,
+.personal-order__form-container textarea:hover {
+    box-shadow: 0 0 0 2px black;
+}
+
+.input-form:focus,
+.personal-order__form-container textarea:focus {
+    box-shadow: 0 0 0 2px black;
+    outline: none;
+    color: #333333;
+}
+
+.input-form__button {
+    color: black;
+    background-color: #e8a48e;
+    border-radius: 25px;
+    font-size: 12px;
+    font-family: var(--font-family-text);
+    transition: transform .5s ease, box-shadow .5s ease, background-color .5s, color .5s;
+    min-width: 100px;
+    height: 55px;
+    font-size: 15px;
+    font-weight: 700;
+    margin: 25px 0 12px 0;
+    padding: 0;
+    border-radius: 20px 70px 20px 70px / 50px 20px 70px 20px;
+    box-sizing: border-box;
+    border: none;
+    box-shadow: 0 0 0 1px black;
+}
+
+.input-form__button:hover {
+    color: white;
+    background-color: #936f62;
+    transform: scale(0.97);
+    box-shadow: 0 0 0 2px black;
+}
+
+.cart-items {
+    max-height: 80vh;
+    overflow-y: auto;
+    padding-right: 10px;
+}
+
+body.no-scroll {
+    overflow: hidden;
+}
+
+@media (min-width: 400px) {
+    .cart-checkout {
+        width: 360px;
+    }
+
+    .personal-order__container {
+        height: 772px;
+    }
+
+    .input-form,
+    .personal-order__form-container textarea {
+        min-width: 300px;
+    }
+
+    .input-form__button {
+        min-width: 120px;
+    }
+
+    .personal-order {
+        background-position: 60% 60%;
+        transition: background-position .5s ease;
+    }
+}
+
+@media (min-width: 405px) {
+
+    .modal-product {
+        width: 340.22px;
+        height: 731.5px;
+    }
+}
+
+@media (min-width: 440px) {
+    .main-wrapper #vue .modalWrapper .modal .imageWrapper {
+        width: 307.3px;
+        height: 307.3px;
+    }
+
+    .main-wrapper #vue .modalWrapper .modal .additionalImages {
+        width: 308px;
+        height: 110px;
+    }
+}
+
+@media (min-width: 480px) {
+    .products {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        padding: 0 24px;
+    }
+
+    .product-container {
+        padding: 40px 15px 0px 15px;
+    }
+
+    .main-wrapper #vue .products .product .image {
+        height: 38.75dvi;
+    }
+
+    .main-wrapper #vue .cart {
+        right: 25px;
+    }
+
+    .modal-input {
+        width: 70px;
+    }
+
+    .cart-checkout {
+        width: 440px;
+    }
+
+    .personal-order__container {
+        height: 800px;
+    }
+
+    .input-form,
+    .personal-order__form-container textarea {
+        min-width: 350px;
+    }
+
+    .input-form__button {
+        min-width: 140px;
+    }
+
+    .personal-order {
+        background-position: 57% 57%;
+        transition: background-position .5s ease;
+    }
+
+    .main-wrapper #vue .modalWrapper .prevProduct {
+        left: 0;
+    }
+
+    .main-wrapper #vue .modalWrapper .nextProduct {
+        right: 0;
+    }
+
+    .close-product__modal {
+        top: 20px;
+        right: 20px;
+        font-size: 30px;
+    }
+}
+
+@media (min-width: 550px) {
+    .cart-checkout {
+        width: 500px;
+    }
+
+    .checkout-close__item i {
+        font-size: 35px;
+        width: 35px;
+        height: 35px;
+    }
+
+    .checkout-close__item {
+        right: 40px;
+        top: 40px;
+    }
+
+    .checkout-title,
+    .checkout-total__text {
+        font-size: 40px;
+    }
+
+    .checkout-total__text {
+        padding-top: 25px;
+    }
+
+    .checkout-text__pay {
+        font-size: 20px;
+    }
+
+    .input-form,
+    .personal-order__form-container textarea {
+        min-width: 370px;
+        max-width: 370px;
+        max-height: 41.8px;
+        font-size: 14px;
+    }
+
+    .personal-order__form-container textarea {
+        width: 100%;
+        min-height: 150px;
+        max-height: 180px;
+    }
+
+    .input-form__button {
+        min-width: 160px;
+        max-width: 160px;
+    }
+
+    .personal-order {
+        background-position: 55% 55%;
+        transition: background-position .5s ease;
+    }
+
+    .personal-order__container {
+        max-width: 509px;
+    }
+
+    .checkout-items__pay {
+        gap: 15px;
+    }
+
+    .checkout-items__pay i {
+        font-size: 40px;
+        width: 30px;
+        height: 30px;
+    }
+
+    .main-wrapper #vue .modalWrapper .prevProduct {
+        left: calc(30% - 160px);
+    }
+
+    .main-wrapper #vue .modalWrapper .nextProduct {
+        right: calc(30% - 160px);
+    }
+
+    .main-wrapper #vue .modalWrapper .prevProduct,
+    .main-wrapper #vue .modalWrapper .nextProduct {
+        font-weight: bold;
+        user-select: none;
+        z-index: 5;
+        width: auto;
+        font-size: 32px;
+    }
+
+    button {
+        padding: 8px;
+    }
+}
+
+@media (min-width: 767px) {
+    .products {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .main-wrapper #vue .products .product .image {
+        height: 27.34dvi;
+    }
+
+    .name-center {
+        padding-right: 40px;
+        max-width: 250px;
+    }
+
+    .cart-total {
+        padding-left: 40px;
+    }
+
+    .shopping-cart {
+        font-size: 20px !important;
+    }
+
+    .main-wrapper #vue .cart {
+        font-size: 20px;
+    }
+
+    .cart-total-text {
+        font-size: 25px;
+        padding-right: 100px;
+        font-weight: 1000;
+    }
+
+    .clearCart,
+    .checkoutCart {
+        font-size: 20px;
+    }
+
+    .main-wrapper #vue .cart {
+        right: 35px;
+    }
+
+    .modal-product {
+        width: 450px;
+    }
+
+    .name-product__modal {
+        font-size: 20px;
+    }
+
+    .price-product__modal {
+        font-size: 20px;
+    }
+
+    .button-add-to-cart__modal {
+        padding: 10px 40px;
+    }
+
+    .close-product__modal {
+        font-size: 35px;
+    }
+}
+
+@media (min-width: 992px) {
+    .products {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        padding: 0 24px;
+    }
+
+    .main-wrapper #vue .products .product .image {
+        height: 20.77dvi;
+    }
+
+    .name-product {
+        font-size: 24px;
+    }
+
+    .main-wrapper #vue .products .product .image {
+        margin-bottom: 20px;
+    }
+
+    .main-wrapper #vue .cart {
+        right: 40px;
+    }
+
+    .modal-product {
+        width: 500px;
+        height: 777px;
+    }
+
+    .main-wrapper #vue .modalWrapper .modal .imageWrapper {
+        width: 400px;
+        height: 330px;
+    }
+
+    .main-wrapper #vue .modalWrapper .prevProduct {
+        left: calc(50% - 400px);
+    }
+
+    .main-wrapper #vue .modalWrapper .nextProduct {
+        right: calc(50% - 400px);
+    }
+
+    .main-wrapper #vue .modalWrapper .prevProduct,
+    .main-wrapper #vue .modalWrapper .nextProduct {
+        font-size: 45px;
+    }
+
+    .main-wrapper #vue .modalWrapper .modal .additionalImages {
+        width: 358px;
+    }
+
+    .modal-input {
+        padding: 13px 0;
+    }
+}
+
+@media (min-width: 1200px) {
+
+    .products,
+    .cart-general {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    .main-wrapper #vue .cart .cart-items .cartTable {
+        max-width: 1001px !important;
+    }
+
+    .main-wrapper #vue .products .product .image {
+        height: 249.03px;
+        width: 257.75px;
+    }
+
+    .main-wrapper #vue .cart {
+        margin: 0 auto;
+        max-width: 1240px;
+        right: calc((100% - 1040px) / 2 - 20px);
+    }
+}
+
+@media (min-width: 550px) {
+    .personal-order__container {
+        margin: 0 auto;
+        height: 800px;
+    }
+
+    .input-form,
+    .personal-order__form-container textarea {
+        min-width: 370px;
+    }
+
+    .personal-order {
+        background-position: 55% 55%;
+        transition: background-position .5s ease;
+    }
+
+    .personal-order__container {
+        max-width: 509px;
+    }
+}

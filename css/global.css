@@ -65,6 +65,10 @@
     --top-choice-text-title: #3d7d72;
     --top-choice-heading-text: #71897d;
     --top-choice-paragraph-text: #849b91;
+    --top-choice-carousel-button: #3d7d72;
+    --top-choice-carousel-indicators: #849b91;
+    --top-choice-carousel-indicators-active: #3d7d72;
+    --top-choice-carousel-indicators-hover: #3d7d72;
 
     --categories-text-italic: #ebbaa9;
     --categories-title-text: #333333;
@@ -79,6 +83,7 @@
     --categories-button-shop-background: #ebbaa9;
     --categories-button-shop-text: #ffffff;
     --categories-button-shop-background-hover: #333333;
+    --categories-button-carousel: #ebbaa9;
 
     --discount-background-container: #fbf0e5;
     --discount-title-number: #ebbaa9;
@@ -145,6 +150,10 @@
     --testimonials-block-information-title-text: #ebbaa9;
     --testimonials-block-information-quote-text: #b4a79e;
     --testimonials-block-information-date-text: #a59489;
+    --testimonials-button-carousel: #ebbaa9;
+    --testimonials-carousel-indicators: #ebbaa9;
+    --testimonials-carousel-indicators-active: #936f62;
+    --testimonials-carousel-indicators-hover: #936f62;
 
     --our-blog-text-italic: #ebbaa9;
     --our-blog-title-text: #333333;
@@ -251,6 +260,26 @@
     --page-bottom-general-per-page-focus-border: #333333;
     --page-bottom-general-per-page-focus-background: #ffffff;
     --page-bottom-general-per-page-focus-background-hover: #e6e6e6;
+
+
+
+
+
+    --personal-order-background-form: #ffffff;
+    --personal-order-title-text: #212020;
+    --personal-order-subtitle-text: #595452;
+    --personal-order-form-block: #ebebeb;
+    --personal-order-form-text: #595452;
+    --personal-order-form-button-background: #e04141;
+    --personal-order-form-button-text: #ffffff;
+    --personal-order-form-button-hover: #212020;
+
+
+
+
+
+
+
 
     --font-family-title: 'Lexend', sans-serif;
     --font-family-text: 'Lato', sans-serif;

@@ -104,18 +104,18 @@
 
             .thumb img {
                 opacity: 0.5;
-                border-radius: 10% 50% 10%50%/ 50% 10% 50% 10%;
+                border-radius: 10% 50% 10% 50%/ 50% 10% 50% 10%;
             }
 
             .thumb img:hover {
                 opacity: 1;
-                border-radius: 10% 50% 10%50%/ 50% 10% 50% 10%;
+                border-radius: 10% 50% 10% 50%/ 50% 10% 50% 10%;
             }
 
             .thumb.active img {
                 opacity: 1;
-                border: 1px solid var(--page-product-unit-active-img-border);
-                border-radius: 10% 50% 10%50%/ 50% 10% 50% 10%;
+                border: 2.5px solid var(--page-product-unit-active-img-border);
+                border-radius: 10% 50% 10% 50%/ 50% 10% 50% 10%;
             }
 
             .carousel-control {

@@ -86,6 +86,11 @@
                 }
             }
 
+            .accordion-button,
+            .accordion-button.collapsed {
+                margin: 0;
+            }
+
             .accordion-button.collapsed::after {
                 content: '+';
                 margin-left: 20px;

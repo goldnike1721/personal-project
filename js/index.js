@@ -1,6 +1,11 @@
 function init() {
     import("./global.burger-menu.js");
-    import("./unit-product.js")
+    import("./global.cart.js");
+    import("./unit-product.js");
+    import("./top-choice.carousel.js");
+    import("./categories.carousel.js");
+    import("./top-choice.modal.js");
+    import("./testimonials.carousel.js")
 }
 
 
